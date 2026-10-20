@@ -1,0 +1,132 @@
+{
+  "result": "PASS",
+  "remediationType": "QUIZ_REMEDIATION_ONLY",
+  "targetQuizCount": 192,
+  "distributionByLesson": {
+    "lesson-01": 8,
+    "lesson-02": 8,
+    "lesson-03": 8,
+    "lesson-04": 8,
+    "lesson-05": 8,
+    "lesson-06": 8,
+    "lesson-07": 8,
+    "lesson-08": 8,
+    "lesson-09": 8,
+    "lesson-10": 8,
+    "lesson-11": 8,
+    "lesson-12": 8,
+    "lesson-13": 8,
+    "lesson-14": 8,
+    "lesson-15": 8,
+    "lesson-16": 8,
+    "lesson-17": 8,
+    "lesson-18": 8,
+    "lesson-19": 8,
+    "lesson-20": 8,
+    "lesson-21": 8,
+    "lesson-22": 8,
+    "lesson-23": 8,
+    "lesson-24": 8
+  },
+  "lesson01Classification": {
+    "retained": [
+      "lesson-1-quiz-01",
+      "lesson-1-quiz-02",
+      "lesson-1-quiz-03",
+      "lesson-1-quiz-04",
+      "lesson-1-quiz-05",
+      "lesson-1-quiz-06",
+      "lesson-1-quiz-07",
+      "lesson-1-quiz-08"
+    ],
+    "answerOnlyRemoved": [
+      "lesson-1-quiz-09",
+      "lesson-1-quiz-10",
+      "lesson-1-quiz-11",
+      "lesson-1-quiz-12",
+      "lesson-1-quiz-13",
+      "lesson-1-quiz-14",
+      "lesson-1-quiz-15"
+    ],
+    "note": "The existing seven answer-like records are no longer emitted; Q08 is derived from existing Lesson 01 teaching text."
+  },
+  "lesson02Classification": {
+    "retained": [
+      "lesson-2-quiz-01",
+      "lesson-2-quiz-02",
+      "lesson-2-quiz-03",
+      "lesson-2-quiz-04",
+      "lesson-2-quiz-05",
+      "lesson-2-quiz-06",
+      "lesson-2-quiz-07",
+      "lesson-2-quiz-08"
+    ],
+    "answerOnlyRemoved": [
+      "lesson-2-quiz-09",
+      "lesson-2-quiz-10",
+      "lesson-2-quiz-11",
+      "lesson-2-quiz-12",
+      "lesson-2-quiz-13",
+      "lesson-2-quiz-14",
+      "lesson-2-quiz-15",
+      "lesson-2-quiz-16"
+    ]
+  },
+  "lesson03SourceMap": {
+    "lesson-3-quiz-01": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: 形容詞通常修飾什麼？",
+      "sourceConcept": "形容詞位置與修飾對象",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "名詞或補語。"
+    },
+    "lesson-3-quiz-02": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: 副詞可以修飾哪些成分？",
+      "sourceConcept": "副詞功能與句中位置",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "動詞、形容詞、副詞或整句。"
+    },
+    "lesson-3-quiz-03": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: 近義字不能只靠中文判斷，還要比較哪些面向？",
+      "sourceConcept": "近義字語境判斷",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "搭配、語氣、主詞限制與使用情境。"
+    },
+    "lesson-3-quiz-04": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: a tight schedule 中 tight 表示什麼意思？",
+      "sourceConcept": "tight 的搭配與語意",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "行程很滿。"
+    },
+    "lesson-3-quiz-05": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: grave concern 中 grave 表示什麼語氣？",
+      "sourceConcept": "grave 的搭配與語氣",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "嚴重的。"
+    },
+    "lesson-3-quiz-06": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: initially 表示什麼時間？",
+      "sourceConcept": "副詞時間語意",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "在一開始。"
+    },
+    "lesson-3-quiz-07": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: 詞彙題考場第一步要先判斷什麼？",
+      "sourceConcept": "詞彙題判斷順序",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "先辨認題型與題目要求，再找詞性／句法功能的硬線索。"
+    },
+    "lesson-3-quiz-08": {
+      "sourceTeachingBlock": "Lesson 03 view 01/02: 若兩個選項中文都合理，應如何排除？",
+      "sourceConcept": "近義字排除 SOP",
+      "answerSource": "existing Lesson 03 teaching text",
+      "expectedAnswer": "先排除句法不成立，再比較搭配、語意與上下文。"
+    }
+  },
+  "standaloneAnswerRecordsAfter": 0,
+  "duplicateQuizIds": 0,
+  "duplicateQuizInstanceIds": 0,
+  "officialContentChanged": false,
+  "mcqMappingsChanged": false,
+  "lessonCount": 24,
+  "viewCountChanged": false
+}
