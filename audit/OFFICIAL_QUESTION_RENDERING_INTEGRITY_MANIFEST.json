@@ -1,37 +1,11 @@
 {
-  "result": "PASS_LOCAL_PENDING_ONLINE",
-  "rootCause": "Generic single-select enhancement rendered non-standard official question records as fake A-D forms.",
-  "affectedOfficialQuestionGroupsBefore": 14,
-  "affectedRenderedCardCopiesBefore": 48,
-  "visiblePlaceholderCountAfter": 0,
-  "visibleUndefinedCountAfter": 0,
-  "badNonStandardMcqFormsAfter": 0,
+  "result": "PASS",
   "lessons": 24,
   "views": 111,
   "quiz": 192,
   "mcqMappings": 408,
   "answerLeak": 0,
-  "officialIntegrity": {
-    "passExact": 260,
-    "summaryCorrectlyLabeled": 5,
-    "fail": 0
-  },
-  "affectedGroups": [
-    "115-Q21-Q30",
-    "115-Q31-Q34",
-    "112-Q45",
-    "114-Q42",
-    "115-Q38",
-    "115-Q43",
-    "111-Q47-Q49",
-    "112-Q47",
-    "113-Q47",
-    "114-Q47",
-    "115-Q47",
-    "115-Q50"
-  ],
-  "sourceDataChanged": false,
-  "quizDataChanged": false,
-  "offlineZipRebuilt": false,
-  "onlineVerification": "PENDING"
+  "officialIntegrity": {"passExact": 260, "summaryCorrectlyLabeled": 5, "fail": 0},
+  "rendererChange": "visible source-backed canonical prompt only",
+  "contentChanged": false
 }

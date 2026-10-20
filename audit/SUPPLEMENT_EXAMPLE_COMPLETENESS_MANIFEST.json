@@ -1,0 +1,65 @@
+{
+  "result": "SUPPLEMENT_EXAMPLE_COMPLETENESS_PASS",
+  "total": 2000,
+  "categories": {
+    "vocabulary": {
+      "total": 250,
+      "sourceExampleExists": 0,
+      "canonicalExampleExists": 0,
+      "renderedExample": 0,
+      "sourceExampleMissing": 250
+    },
+    "collocation": {
+      "total": 750,
+      "sourceExampleExists": 0,
+      "canonicalExampleExists": 0,
+      "renderedExample": 0,
+      "sourceExampleMissing": 750
+    },
+    "sentencePattern": {
+      "total": 1000,
+      "sourceExampleExists": 750,
+      "canonicalExampleExists": 750,
+      "renderedExample": 750,
+      "sourceExampleMissing": 250
+    }
+  },
+  "gates": {
+    "sourceExampleExistsCanonicalMissing": 0,
+    "canonicalExampleExistsRendererMissing": 0,
+    "parserExampleOmissions": 0,
+    "rendererExampleOmissions": 0,
+    "sourceExampleMissing": 1250
+  },
+  "requiredSpotChecks": {
+    "It is + adj. + for sb. to V": {
+      "sourceExampleMissing": ["sentencePattern-0001"],
+      "pass": [
+        "sentencePattern-0002",
+        "sentencePattern-0003",
+        "sentencePattern-0004"
+      ]
+    },
+    "vocabulary": [
+      { "term": "ability", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "access", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "achieve", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "adapt", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "advantage", "result": "SOURCE_EXAMPLE_MISSING" }
+    ],
+    "collocation": [
+      { "term": "academic ability", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "language ability", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "have the ability to", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "access information", "result": "SOURCE_EXAMPLE_MISSING" },
+      { "term": "gain access to", "result": "SOURCE_EXAMPLE_MISSING" }
+    ],
+    "sentencePatternPassCount": 5
+  },
+  "dataIntegrity": {
+    "recordsAdded": 0,
+    "recordsRemoved": 0,
+    "idsChanged": false,
+    "contentGenerated": false
+  }
+}

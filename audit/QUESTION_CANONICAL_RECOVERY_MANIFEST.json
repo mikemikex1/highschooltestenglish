@@ -1,0 +1,20 @@
+{
+  "result": "PASS_SOURCE_BACKED_RECOVERY",
+  "historicalSerializedRecordCount": 632,
+  "canonicalUniqueRecordCount": 512,
+  "sourceTypes": {"official": 76, "selfCreated": 14, "practice": 230, "quiz": 192},
+  "stemParserOmissionsBefore": "detected",
+  "stemParserOmissionsAfter": 0,
+  "explanationParserOmissionsBefore": 356,
+  "explanationParserOmissionsAfter": 0,
+  "rendererStemOmissionsAfter": 0,
+  "rendererExplanationOmissionsAfter": 0,
+  "sourceStemMissing": ["official-115-q31", "official-112-q47"],
+  "sourceExplanationMissingCount": 51,
+  "quizCount": 192,
+  "mcqMappings": 408,
+  "answerLeak": 0,
+  "contentChanged": false,
+  "quizChanged": false,
+  "supplementChanged": false
+}

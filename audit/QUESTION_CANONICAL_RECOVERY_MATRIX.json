@@ -1,0 +1,27 @@
+{
+  "schema": [
+    "id", "sourceType", "lesson", "view", "year", "questionNumber",
+    "sourceStemExists", "canonicalStemExists", "renderedStemExists",
+    "sourceContextExists", "canonicalContextExists", "renderedContextExists",
+    "sourceCoreExplanationExists", "canonicalCoreExplanationExists",
+    "sourceOptionAnalysisExists", "canonicalOptionAnalysisExists",
+    "sourceFullExplanationExists", "canonicalFullExplanationExists",
+    "parserStemOmission", "parserContextOmission", "parserExplanationOmission",
+    "sourceStemMissing", "sourceExplanationMissing", "result"
+  ],
+  "recordCount": 512,
+  "recordCountReconciliation": {"historicalSerialized": 632, "canonicalUnique": 512, "reason": "stable ID reconciliation removed duplicate/unstable serialized instances"},
+  "sourceTypeCounts": {"official": 76, "selfCreated": 14, "practice": 230, "quiz": 192},
+  "resultCounts": {"PASS_SOURCE_BACKED": 459, "SOURCE_STEM_MISSING": 2, "SOURCE_EXPLANATION_MISSING": 51},
+  "sourceStemMissingIds": ["official-115-q31", "official-112-q47"],
+  "spotRecords": [
+    {"id":"official-115-q18","sourceType":"official","lesson":"lesson-01","view":"lesson-01-view-03","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"sourceContextExists":false,"canonicalContextExists":false,"renderedContextExists":false,"sourceCoreExplanationExists":true,"canonicalCoreExplanationExists":true,"sourceOptionAnalysisExists":false,"canonicalOptionAnalysisExists":false,"sourceFullExplanationExists":true,"canonicalFullExplanationExists":true,"result":"PASS_SOURCE_BACKED"},
+    {"id":"official-115-q21","sourceType":"official","lesson":"lesson-01","view":"lesson-01-view-03","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"sourceContextExists":true,"canonicalContextExists":true,"renderedContextExists":true,"sourceCoreExplanationExists":true,"canonicalCoreExplanationExists":true,"sourceOptionAnalysisExists":false,"canonicalOptionAnalysisExists":false,"sourceFullExplanationExists":true,"canonicalFullExplanationExists":true,"result":"PASS_SOURCE_BACKED"},
+    {"id":"official-115-q22","sourceType":"official","lesson":"lesson-01","view":"lesson-01-view-03","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"result":"PASS_SOURCE_BACKED"},
+    {"id":"official-115-q23","sourceType":"official","lesson":"lesson-01","view":"lesson-01-view-03","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"result":"PASS_SOURCE_BACKED"},
+    {"id":"official-115-q24","sourceType":"official","lesson":"lesson-01","view":"lesson-01-view-03","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"result":"PASS_SOURCE_BACKED"},
+    {"id":"lesson-08-practice","sourceType":"practice","lesson":"lesson-08","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"sourceCoreExplanationExists":true,"canonicalCoreExplanationExists":true,"sourceFullExplanationExists":true,"canonicalFullExplanationExists":true,"result":"PASS_SOURCE_BACKED"},
+    {"id":"official-115-q35","sourceType":"official","lesson":"lesson-01","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"result":"PASS_SOURCE_BACKED"},
+    {"id":"official-115-q37","sourceType":"official","lesson":"lesson-12","sourceStemExists":true,"canonicalStemExists":true,"renderedStemExists":true,"sourceOptionAnalysisExists":true,"canonicalOptionAnalysisExists":true,"result":"PASS_SOURCE_BACKED"}
+  ]
+}

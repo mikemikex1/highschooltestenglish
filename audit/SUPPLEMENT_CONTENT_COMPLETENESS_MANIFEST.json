@@ -1,0 +1,66 @@
+{
+  "result": "SUPPLEMENT_CONTENT_RENDERING_COMPLETENESS_PASS",
+  "total": 2000,
+  "recordsAudited": 2000,
+  "auditScope": "Every canonicalSupplementData record and every populated renderable field",
+  "categories": {
+    "vocabulary": 250,
+    "collocation": 750,
+    "sentencePattern": 1000
+  },
+  "fieldCoverage": {
+    "term": { "present": 2000, "sourceMissing": 0 },
+    "meaning": { "present": 500, "sourceMissing": 1500 },
+    "partOfSpeech": { "present": 0, "sourceMissing": 2000 },
+    "pattern": { "present": 1000, "sourceMissing": 1000 },
+    "example": { "present": 750, "sourceMissing": 1250 },
+    "notes": { "present": 0, "sourceMissing": 2000 }
+  },
+  "sourceFile": "高中學測常考單字句型2000項.md",
+  "canonicalSchemaFields": [
+    "id",
+    "category",
+    "term",
+    "meaning",
+    "partOfSpeech",
+    "pattern",
+    "example",
+    "notes",
+    "tags",
+    "lessonRefs",
+    "questionRefs",
+    "sourceRef",
+    "rawText"
+  ],
+  "renderer": {
+    "rendererOmissionsBefore": 0,
+    "rendererOmissionsAfter": 0,
+    "emptyDetailsWithNoData": 0,
+    "conditionalFieldsRendered": [
+      "meaning",
+      "pattern",
+      "example",
+      "partOfSpeech",
+      "notes"
+    ]
+  },
+  "parser": {
+    "parserOmissionsBefore": 0,
+    "parserOmissionsAfter": 0,
+    "sourceMissingIsNotParserOmission": true
+  },
+  "spotChecks": {
+    "academic ability": "PASS_SOURCE_FIELDS_EXACT",
+    "language ability": "PASS_SOURCE_FIELDS_EXACT",
+    "have the ability to": "PASS_SOURCE_FIELDS_EXACT"
+  },
+  "dataIntegrity": {
+    "idsChanged": false,
+    "categoriesChanged": false,
+    "recordsAdded": 0,
+    "recordsRemoved": 0,
+    "contentGenerated": false
+  },
+  "mobileVisualQa": "NOT_RERUN_IN_THIS_AUDIT"
+  ,"exampleCompletenessAudit": "SUPPLEMENT_EXAMPLE_COMPLETENESS_AUDIT.md"
+}

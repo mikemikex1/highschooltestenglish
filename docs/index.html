@@ -5274,11 +5274,16 @@ window.initializeInteractiveContent = function (root) {
     feedback.hidden = true;
     feedback.innerHTML = '<p class="result-line"></p><p class="your-answer"></p><div class="feedback-answer"></div><div class="feedback-explanation"></div>';
     feedback.querySelector('.feedback-answer').innerHTML = answerHtml || '<p class="correct-answer">正確答案：' + answer + '</p>';
+    feedback.querySelectorAll('.full-explanation').forEach(function (node) {
+      if (!node.textContent.trim()) node.remove();
+    });
     if (optionNotes) {
       var notes = document.createElement('div');
       notes.className = 'choice-notes';
       notes.innerHTML = optionNotes;
-      feedback.querySelector('.feedback-explanation').appendChild(notes);
+      if (notes.textContent.trim()) {
+        feedback.querySelector('.feedback-explanation').appendChild(notes);
+      }
     }
     form.appendChild(feedback);
     return feedback;
@@ -5494,13 +5499,46 @@ window.initializeInteractiveContent = function (root) {
   var parse = function (html) { var t = document.createElement('template'); t.innerHTML = html || ''; return t.content.cloneNode(true); };
   var text = function (node) { return clean(node ? node.textContent : ''); };
   var sourceType = function (node) { var s = text(node && node.querySelector('.source-badge')); if (/official|官方原題/i.test(s)) return 'official'; if (/quiz|小考/i.test(s)) return 'quiz'; if (/practice|自編練習/i.test(s)) return 'practice'; return 'selfCreated'; };
-  var numberFrom = function (s) { var m = String(s || '').match(/\\b(111|112|113|114|115)\\b/); return m ? Number(m[1]) : null; };
-  var qnumFrom = function (s) { var m = String(s || '').match(/(?:Q|第)\\s*(\\d+)/i); return m ? Number(m[1]) : null; };
+  var numberFrom = function (s) { var m = String(s || '').match(/\b(111|112|113|114|115)\b/); return m ? Number(m[1]) : null; };
+  var qnumFrom = function (s) { var m = String(s || '').match(/\bQ\s*(\d+)\b/i); return m ? Number(m[1]) : null; };
   var options = function (node) { var list = node && (node.querySelector('ol[type="A"]') || node.querySelector('ol.choice-analysis')); if (!list) return []; return Array.prototype.map.call(list.children, function (li) { return clean(li.textContent).replace(/^[A-D][.)]\\s*/i, ''); }); };
   var answer = function (node, qn) { var s = text(node && (node.querySelector('.correct-answer') || node)); var m = qn ? s.match(new RegExp('(?:^|[^0-9])' + qn + '\\s*([A-D])(?:[^A-D]|$)', 'i')) : null; if (m) return [m[1].toUpperCase()]; m = s.match(/(?:答案|Answer|Correct answer)[^A-D]{0,24}([A-D])/i); return m ? [m[1].toUpperCase()] : []; };
   var explanation = function (node) { var full = node && node.querySelector('.full-explanation'); var p = full && full.querySelector('p'); return { core: text(p), html: full ? full.innerHTML : '', options: node ? Array.prototype.map.call(node.querySelectorAll('.choice-analysis > li'), text) : [] }; };
   var addPassage = function (lesson, view, node) { var raw = node.innerHTML; var id = 'passage-' + hash(raw); if (!pById[id]) { pById[id] = { id: id, sourceType: 'official', lessonRefs: [lesson.id], viewRefs: [view.id], html: raw, textHash: hash(text(node)), questionRefs: [] }; passages.push(pById[id]); } else if (pById[id].viewRefs.indexOf(view.id) < 0) pById[id].viewRefs.push(view.id); return id; };
   var add = function (item) { if (!qById[item.id]) { qById[item.id] = item; questions.push(item); } else { var old = qById[item.id]; item.lessonRefs.forEach(function (x) { if (old.lessonRefs.indexOf(x) < 0) old.lessonRefs.push(x); }); item.viewRefs.forEach(function (x) { if (old.viewRefs.indexOf(x) < 0) old.viewRefs.push(x); }); } return qById[item.id]; };
+  var officialStemMap = Object.create(null);
+  var parsedViews = [];
+  lessons.forEach(function (lesson) { (lesson.views || []).forEach(function (view) {
+    var root = parse(view.html);
+    parsedViews.push({ lesson: lesson, view: view, root: root });
+    Array.prototype.forEach.call(root.querySelectorAll('.exam-question'), function (card) {
+      var title = text(card.querySelector('h4'));
+      var year = numberFrom(title);
+      var qn = qnumFrom(title) || qnumFrom(card.getAttribute('data-question'));
+      var ps = Array.prototype.filter.call(card.querySelectorAll(':scope > p'), function (p) { return !p.classList.contains('source-badge') && text(p); });
+      var candidate = ps.length ? text(ps[0]) : '';
+      if (year && qn && candidate && !/^\u6b63\u5f0f\u984c\u7d44\u5167\u5bb9/.test(candidate) && !/^\u984c\u5e79\uff1a/.test(candidate)) officialStemMap[year + '-q' + qn] = candidate.replace(/^\u984c\u5e79\uff1a\s*/, '');
+    });
+  }); });
+  var practiceOptions = function (node) {
+    var ps = Array.prototype.filter.call(node ? node.querySelectorAll(':scope > p') : [], function (p) { return text(p); });
+    if (ps.length < 2) return [];
+    var s = text(ps[1]).replace(/^\s+/, '');
+    var re = /(?:^|\s)[(\uff08]?([A-D])[.)\uff09]\s*([\s\S]*?)(?=\s+[(\uff08]?[A-D][.)\uff09]\s*|$)/g, out = [], m;
+    while ((m = re.exec(s))) out.push(m[2].trim());
+    return out;
+  };
+  var practiceExplanation = function (node) {
+    var details = node && node.querySelector(':scope > details');
+    var full = details ? details.innerHTML : '';
+    var p = details && details.querySelector('p');
+    return { core: text(p), html: full };
+  };
+  var practiceAnswer = function (node) {
+    var s = text(node && node.querySelector(':scope > details'));
+    var m = s.match(/(?:Answer|Correct answer|\u6b63\u89e3|\u7b54\u6848)\s*[:\uff1a]?\s*([A-D])/i);
+    return m ? [m[1].toUpperCase()] : [];
+  };
   var addCard = function (lesson, view, card, index) {
     var title = text(card.querySelector('h4'));
     var year = numberFrom(title);
@@ -5510,9 +5548,12 @@ window.initializeInteractiveContent = function (root) {
     var id = official ? 'official-' + year + '-q' + qn : (st === 'practice' ? 'lesson-' + lesson.number + '-practice-' + hash(text(card)) : 'selfCreated-' + lesson.number + '-example-' + String(index + 1).padStart(2, '0'));
     var exp = explanation(card);
     var opts = options(card);
-    add({ id: id, instanceId: id + '@' + view.id, sourceType: official ? 'official' : st, questionType: opts.length === 4 ? 'single_select' : 'nonInteractive', lessonId: lesson.id, lessonRefs: [lesson.id], viewId: view.id, viewRefs: [view.id], year: year, questionNumber: qn, prompt: text(card.querySelector('p')), options: opts, correctValues: answer(card, qn), coreExplanation: exp.core, optionAnalysis: exp.options, fullExplanation: exp.html, passageRefs: [], sourceRefs: official ? ['official-' + year + '-q' + qn] : [], textHash: hash(text(card)) });
+    var promptNode = Array.prototype.find.call(card.querySelectorAll(':scope > p'), function (p) { return !p.classList.contains('source-badge') && text(p); });
+    var prompt = promptNode ? text(promptNode).replace(/^\u984c\u5e79\uff1a\s*/, '') : '';
+    if (official && (!prompt || /^\u6b63\u5f0f\u984c\u7d44\u5167\u5bb9/.test(prompt))) prompt = officialStemMap[year + '-q' + qn] || prompt;
+    add({ id: id, instanceId: id + '@' + view.id, sourceType: official ? 'official' : st, questionType: opts.length === 4 ? 'single_select' : 'nonInteractive', lessonId: lesson.id, lessonRefs: [lesson.id], viewId: view.id, viewRefs: [view.id], year: year, questionNumber: qn, prompt: prompt, options: opts, correctValues: answer(card, qn), coreExplanation: exp.core, optionAnalysis: exp.options, fullExplanation: exp.html, passageRefs: [], sourceRefs: official ? ['official-' + year + '-q' + qn] : [], textHash: hash(text(card)) });
   };
-  lessons.forEach(function (lesson) { (lesson.views || []).forEach(function (view) { var root = parse(view.html); Array.prototype.forEach.call(root.querySelectorAll('.source-context'), function (n) { addPassage(lesson, view, n); }); Array.prototype.forEach.call(root.querySelectorAll('.exam-question'), function (n, i) { addCard(lesson, view, n, i); }); Array.prototype.forEach.call(root.querySelectorAll('.practice-list > li'), function (n) { var id = 'lesson-' + lesson.number + '-practice-' + hash(text(n)); add({ id: id, instanceId: id + '@' + view.id, sourceType: 'practice', questionType: 'nonInteractive', lessonId: lesson.id, lessonRefs: [lesson.id], viewId: view.id, viewRefs: [view.id], year: null, questionNumber: null, prompt: text(n), options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: '', passageRefs: [], sourceRefs: [], textHash: hash(text(n)) }); }); Array.prototype.forEach.call(root.querySelectorAll('.quiz-box > ol > li'), function (n, i) { var id = 'lesson-' + lesson.number + '-quiz-' + String(i + 1).padStart(2, '0'); add({ id: id, instanceId: id + '@' + view.id, sourceType: 'quiz', questionType: 'short_answer', lessonId: lesson.id, lessonRefs: [lesson.id], viewId: view.id, viewRefs: [view.id], year: null, questionNumber: null, prompt: text(n), options: [], correctValues: [], coreExplanation: text(root.querySelector('.quiz-box details')), optionAnalysis: [], fullExplanation: root.querySelector('.quiz-box details') ? root.querySelector('.quiz-box details').innerHTML : '', passageRefs: [], sourceRefs: [], textHash: hash(text(n)) }); }); }); });
+  parsedViews.forEach(function (entry) { var lesson = entry.lesson, view = entry.view, root = entry.root; Array.prototype.forEach.call(root.querySelectorAll('.source-context'), function (n) { addPassage(lesson, view, n); }); Array.prototype.forEach.call(root.querySelectorAll('.exam-question'), function (n, i) { addCard(lesson, view, n, i); }); Array.prototype.forEach.call(root.querySelectorAll('.practice-list > li'), function (n) { var id = 'lesson-' + lesson.number + '-practice-' + hash(text(n)); var exp = practiceExplanation(n); var ps = Array.prototype.filter.call(n.querySelectorAll(':scope > p'), function (p) { return text(p); }); add({ id: id, instanceId: id + '@' + view.id, sourceType: 'practice', questionType: practiceOptions(n).length === 4 ? 'single_select' : 'nonInteractive', lessonId: lesson.id, lessonRefs: [lesson.id], viewId: view.id, viewRefs: [view.id], year: null, questionNumber: null, prompt: ps.length ? text(ps[0]) : '', options: practiceOptions(n), correctValues: practiceAnswer(n), coreExplanation: exp.core, optionAnalysis: [], fullExplanation: exp.html, passageRefs: [], sourceRefs: [], textHash: hash(text(n)) }); }); Array.prototype.forEach.call(root.querySelectorAll('.quiz-box > ol > li'), function (n, i) { var id = 'lesson-' + lesson.number + '-quiz-' + String(i + 1).padStart(2, '0'); add({ id: id, instanceId: id + '@' + view.id, sourceType: 'quiz', questionType: 'short_answer', lessonId: lesson.id, lessonRefs: [lesson.id], viewId: view.id, viewRefs: [view.id], year: null, questionNumber: null, prompt: text(n), options: [], correctValues: [], coreExplanation: text(root.querySelector('.quiz-box details')), optionAnalysis: [], fullExplanation: root.querySelector('.quiz-box details') ? root.querySelector('.quiz-box details').innerHTML : '', passageRefs: [], sourceRefs: [], textHash: hash(text(n)) }); }); });
 
   var quizRemediationAnswerMap = {"lesson-1-quiz-08":{"expectedAnswer":"概念定義 → 句中判斷 → 對比排除 → 歷屆題證據 → 自編練習 → SOP。","answerKey":"概念定義 → 句中判斷 → 對比排除 → 歷屆題證據 → 自編練習 → SOP。","sourceTeachingBlock":"Lesson 01 view 03: 本課固定學習順序","sourceConcept":"診斷與解題流程","answerSource":"existing Lesson 01 teaching text"},"lesson-3-quiz-01":{"expectedAnswer":"名詞或補語。","answerKey":"名詞或補語。","sourceTeachingBlock":"Lesson 03 view 01/02: 形容詞通常修飾什麼？","sourceConcept":"形容詞位置與修飾對象","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-02":{"expectedAnswer":"動詞、形容詞、副詞或整句。","answerKey":"動詞、形容詞、副詞或整句。","sourceTeachingBlock":"Lesson 03 view 01/02: 副詞可以修飾哪些成分？","sourceConcept":"副詞功能與句中位置","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-03":{"expectedAnswer":"搭配、語氣、主詞限制與使用情境。","answerKey":"搭配、語氣、主詞限制與使用情境。","sourceTeachingBlock":"Lesson 03 view 01/02: 近義字不能只靠中文判斷，還要比較哪些面向？","sourceConcept":"近義字語境判斷","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-04":{"expectedAnswer":"行程很滿。","answerKey":"行程很滿。","sourceTeachingBlock":"Lesson 03 view 01/02: a tight schedule 中 tight 表示什麼意思？","sourceConcept":"tight 的搭配與語意","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-05":{"expectedAnswer":"嚴重的。","answerKey":"嚴重的。","sourceTeachingBlock":"Lesson 03 view 01/02: grave concern 中 grave 表示什麼語氣？","sourceConcept":"grave 的搭配與語氣","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-06":{"expectedAnswer":"在一開始。","answerKey":"在一開始。","sourceTeachingBlock":"Lesson 03 view 01/02: initially 表示什麼時間？","sourceConcept":"副詞時間語意","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-07":{"expectedAnswer":"先辨認題型與題目要求，再找詞性／句法功能的硬線索。","answerKey":"先辨認題型與題目要求，再找詞性／句法功能的硬線索。","sourceTeachingBlock":"Lesson 03 view 01/02: 詞彙題考場第一步要先判斷什麼？","sourceConcept":"詞彙題判斷順序","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-08":{"expectedAnswer":"先排除句法不成立，再比較搭配、語意與上下文。","answerKey":"先排除句法不成立，再比較搭配、語意與上下文。","sourceTeachingBlock":"Lesson 03 view 01/02: 若兩個選項中文都合理，應如何排除？","sourceConcept":"近義字排除 SOP","answerSource":"existing Lesson 03 teaching text"}};
   questions.forEach(function (q) { var m = quizRemediationAnswerMap[q.id]; if (m) { q.expectedAnswer = m.expectedAnswer; q.answerKey = m.answerKey; q.sourceTeachingBlock = m.sourceTeachingBlock; q.sourceConcept = m.sourceConcept; q.answerSource = m.answerSource; } });
@@ -5525,16 +5566,44 @@ window.initializeInteractiveContent = function (root) {
     form.dataset.phase2Normalized = 'true';
     var feedback = form.querySelector('.answer-feedback');
     if (!feedback) return;
+    var canonical = qById[form.getAttribute('data-canonical-question-id') || ''];
+    var visibleStem = canonical && canonical.prompt && canonical.prompt !== '正式題組內容由官方題卡呈現' ? canonical.prompt : '';
+    var stemNode = form.querySelector('legend');
+    if (stemNode && visibleStem) { stemNode.className = 'mcq-stem'; stemNode.textContent = visibleStem; }
     feedback.classList.add('question-result');
     var full = feedback.querySelector('.full-explanation');
-    var core = document.createElement('div'); core.className = 'core-explanation'; core.hidden = true; core.innerHTML = '<h4>核心解析</h4><p></p>';
+    var answerArea = feedback.querySelector('.feedback-answer');
+    if (!full && answerArea) {
+      var explanationNodes = Array.prototype.filter.call(answerArea.children, function (node) {
+        return !node.classList.contains('correct-answer') && node.textContent.trim();
+      });
+      if (explanationNodes.length) {
+        full = document.createElement('div');
+        full.className = 'full-explanation';
+        explanationNodes.forEach(function (node) { full.appendChild(node); });
+        answerArea.appendChild(full);
+      }
+    }
+    var notes = feedback.querySelector('.choice-notes');
     var firstExplanation = full && full.querySelector('p');
-    if (!firstExplanation) firstExplanation = feedback.querySelector('.choice-notes li, .feedback-explanation p');
-    if (firstExplanation) core.querySelector('p').innerHTML = firstExplanation.innerHTML;
-    var detail = document.createElement('details'); detail.className = 'option-analysis'; detail.innerHTML = '<summary>查看逐項解析與完整解析</summary><div class="option-analysis-content"></div>';
-    if (full) detail.querySelector('div').appendChild(full);
-    feedback.appendChild(core); feedback.appendChild(detail);
-    form.addEventListener('click', function (ev) { var id = form.dataset.questionInstance; if (!id) return; if (ev.target.closest('.check-answer')) { var input = form.querySelector('input:checked'); if (input) { var ok = input.value === form.dataset.answer; window.questionUIState[id] = { selectedValues: [input.value], submitted: true, isCorrect: ok }; core.hidden = false; } } if (ev.target.closest('.reset-answer')) { window.questionUIState[id] = { selectedValues: [], submitted: false, isCorrect: null }; core.hidden = true; detail.open = false; } });
+    if (!firstExplanation) firstExplanation = feedback.querySelector('.choice-notes li, .choice-notes span, .feedback-explanation p');
+    var core = null;
+    if (firstExplanation) {
+      core = document.createElement('div');
+      core.className = 'core-explanation';
+      core.hidden = true;
+      core.innerHTML = '<h4>核心解析</h4><p>' + firstExplanation.innerHTML + '</p>';
+    }
+    var hasFull = !!(full && full.textContent.trim());
+    var hasNotes = !!(notes && notes.textContent.trim());
+    var detail = null;
+    if (hasFull || hasNotes) {
+      detail = document.createElement('details'); detail.className = 'option-analysis'; detail.innerHTML = '<summary>' + (hasFull && hasNotes ? '查看逐項解析與完整解析' : (hasNotes ? '查看逐項解析' : '查看完整解析')) + '</summary><div class="option-analysis-content"></div>';
+      if (full) detail.querySelector('div').appendChild(full);
+      if (notes) detail.querySelector('div').appendChild(notes);
+    }
+    if (core) feedback.appendChild(core); if (detail) feedback.appendChild(detail);
+    form.addEventListener('click', function (ev) { var id = form.dataset.questionInstance; if (!id) return; if (ev.target.closest('.check-answer')) { var input = form.querySelector('input:checked'); if (input) { var ok = input.value === form.dataset.answer; window.questionUIState[id] = { selectedValues: [input.value], submitted: true, isCorrect: ok }; if (core) core.hidden = false; } } if (ev.target.closest('.reset-answer')) { window.questionUIState[id] = { selectedValues: [], submitted: false, isCorrect: null }; if (core) core.hidden = true; if (detail) detail.open = false; } });
   }
   window.phase2EnhanceMountedView = function (section, viewId) { var forms = Array.prototype.slice.call(section.querySelectorAll('form.mcq-card')); var candidates = questions.filter(function (q) { return q.viewRefs.indexOf(viewId) >= 0 && q.questionType === 'single_select'; }); forms.forEach(function (form, i) { var raw = form.getAttribute('data-question') || ''; var officialMatch = raw.match(/^(111|112|113|114|115)-Q(\d+)$/i); var id = officialMatch ? 'official-' + officialMatch[1] + '-q' + Number(officialMatch[2]) : null; var q = id && qById[id] ? qById[id] : candidates[i]; if (!q || (id && q.id !== id)) { id = id || ('lesson-' + (viewId.match(/lesson-(\d+)/) || [0, 0])[1] + '-runtime-' + (i + 1)); q = add({ id: id, instanceId: id + '@' + viewId, sourceType: officialMatch ? 'official' : 'selfCreated', questionType: 'single_select', lessonId: viewId.split('-view-')[0], lessonRefs: [viewId.split('-view-')[0]], viewId: viewId, viewRefs: [viewId], year: officialMatch ? Number(officialMatch[1]) : null, questionNumber: officialMatch ? Number(officialMatch[2]) : null, prompt: text(form.querySelector('legend')), options: Array.prototype.map.call(form.querySelectorAll('.choice-text'), text), correctValues: form.dataset.answer ? [form.dataset.answer] : [], coreExplanation: '', optionAnalysis: [], fullExplanation: '', passageRefs: [], sourceRefs: officialMatch ? [id] : [], textHash: hash(form.textContent) }); } form.dataset.questionId = q.id; form.dataset.questionInstance = q.instanceId; form.dataset.sourceType = q.sourceType; form.dataset.questionType = q.questionType; form.setAttribute('data-canonical-question-id', q.id); normalize(form); var saved = window.questionUIState[q.instanceId]; if (saved && saved.selectedValues && saved.selectedValues[0]) { var input = form.querySelector('input[value="' + saved.selectedValues[0] + '"]'); if (input) input.checked = true; if (saved.submitted) { var button = form.querySelector('.check-answer'); if (button) button.click(); } } }); Array.prototype.forEach.call(section.querySelectorAll('.choice-analysis, .answer-dropdown'), function (node) { if (!node.closest('form.mcq-card')) node.hidden = true; }); };
 })();
@@ -5938,6 +6007,21 @@ var data = window.canonicalLessonData;
   }
   function clean(section){
     if(!section)return;
+    Array.prototype.forEach.call(section.querySelectorAll('.answer-dropdown'),function(drop){
+      var full=drop.querySelector('.full-explanation');
+      if(!full||full.textContent.trim())return;
+      var previous=drop.previousElementSibling;
+      var optionNotes=previous&&previous.matches('.choice-analysis')?previous:null;
+      var summary=drop.querySelector('summary');
+      if(optionNotes&&optionNotes.textContent.trim()){
+        optionNotes.classList.add('rendered-option-explanation');
+        full.appendChild(optionNotes);
+        if(summary)summary.textContent='查看答案與逐項解析';
+      }else{
+        full.remove();
+        if(summary)summary.textContent='查看答案';
+      }
+    });
     Array.prototype.forEach.call(section.querySelectorAll('.past-card[data-year][data-question]'),function(card){
       var bad=placeholder.test(card.textContent||'');
       if(!bad)return;

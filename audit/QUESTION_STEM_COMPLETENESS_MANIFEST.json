@@ -1,0 +1,17 @@
+{
+  "result": "PASS_WITH_EXPLICIT_SOURCE_EXCEPTIONS",
+  "canonicalRecordCount": 512,
+  "answerableMcqMappings": 408,
+  "parserStemOmissions": 0,
+  "rendererStemOmissions": 0,
+  "answerableCardsWithoutVisibleStem": 0,
+  "sourceStemMissing": ["official-115-q31", "official-112-q47"],
+  "spotChecks": {
+    "official-115-q18": "PASS",
+    "official-115-q21-q24": "PASS_GROUP_CONTEXT",
+    "lesson-08-practice": "PASS",
+    "lesson-09": "PASS",
+    "lesson-13": "PASS",
+    "lesson-19": "PASS"
+  }
+}

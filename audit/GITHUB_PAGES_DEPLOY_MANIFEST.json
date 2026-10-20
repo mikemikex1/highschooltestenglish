@@ -1,0 +1,55 @@
+{
+  "result": "GITHUB_PAGES_RELEASE_PASS",
+  "pagesUrl": "https://mikemikex1.github.io/highschooltestenglish/",
+  "pagesHttpStatus": 200,
+  "pagesSource": "main /docs",
+  "runtimeMetrics": {
+    "lessons": 24,
+    "views": 111,
+    "quiz": 192,
+    "mcqMappings": 408,
+    "answerLeak": 0
+  },
+  "imageCheck": {
+    "images": 3,
+    "brokenImages": 0
+  },
+  "pdfCheck": {
+    "pdfs": 21,
+    "brokenPdfs": 0
+  },
+  "mobileQa": {
+    "320": "PASS",
+    "390": "PASS",
+    "430": "PASS",
+    "offenders": 0
+  },
+  "desktopQa": {
+    "1024": "PASS",
+    "1440": "PASS",
+    "offenders": 0
+  },
+  "navigationQa": {
+    "lesson": "PASS",
+    "hash": "PASS",
+    "supplement": "PASS",
+    "backForward": "PASS"
+  },
+  "interactionQa": {
+    "mcq": "PASS",
+    "quiz": "PASS",
+    "supplement": "PASS"
+  },
+  "consoleErrors": 0,
+  "network404": 0,
+  "answerLeak": 0,
+  "officialIntegrity": {
+    "passExact": 260,
+    "summaryCorrectlyLabeled": 5,
+    "fail": 0
+  },
+  "localHead": "d97724bf5d9f946655819718484d1e6146aeb6a5",
+  "remoteHead": "d97724bf5d9f946655819718484d1e6146aeb6a5",
+  "workingTreeAtReleaseGate": "clean",
+  "onlineReleaseReady": "YES"
+}
