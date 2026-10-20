@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+tmp/
+temp/
+*.log
+*.bak
+*.tmp
+QA/
+scratch/
+playwright-report/
+test-results/
