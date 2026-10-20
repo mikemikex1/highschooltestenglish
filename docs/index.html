@@ -578,6 +578,107 @@ body.lesson-page main.wrap{width:min(1280px,calc(100% - 28px))}
 }
 @media(min-width:768px){.lesson-sidebar{display:block}.mobile-course-nav{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+<style id="mobile-layout-integrity-hotfix">
+/* Presentation-only responsive integrity hotfix. No lesson/question data is changed. */
+html, body { max-width: 100%; overflow-x: hidden; }
+body.lesson-page *, body.lesson-page *::before, body.lesson-page *::after { box-sizing: border-box; }
+body.lesson-page .wrap,
+body.lesson-page main.wrap,
+body.lesson-page .lesson-shell,
+body.lesson-page .lesson-main,
+body.lesson-page .lesson-content-stack,
+body.lesson-page #lesson-view-root,
+body.lesson-page #supplement-view-root,
+body.lesson-page .offline-lesson,
+body.lesson-page .lesson-runtime-view,
+body.lesson-page .lesson-page,
+body.lesson-page .full-lesson,
+body.lesson-page .teaching-section,
+body.lesson-page .exam-question,
+body.lesson-page .source-context,
+body.lesson-page .reading-context,
+body.lesson-page .passage-card,
+body.lesson-page .translation-item,
+body.lesson-page .essay-card,
+body.lesson-page .supplement-root,
+body.lesson-page .supplement-controls,
+body.lesson-page .supplement-card { max-width: 100%; min-width: 0; }
+body.lesson-page .lesson-shell,
+body.lesson-page .lesson-main,
+body.lesson-page .lesson-content-stack,
+body.lesson-page #lesson-view-root,
+body.lesson-page #supplement-view-root { width: 100%; }
+body.lesson-page img,
+body.lesson-page video,
+body.lesson-page svg,
+body.lesson-page canvas,
+body.lesson-page iframe { max-width: 100%; height: auto; }
+body.lesson-page p,
+body.lesson-page li,
+body.lesson-page td,
+body.lesson-page th,
+body.lesson-page legend,
+body.lesson-page pre,
+body.lesson-page code,
+body.lesson-page .choice-text,
+body.lesson-page .correct-answer,
+body.lesson-page .full-explanation,
+body.lesson-page .source-badge,
+body.lesson-page .lesson-nav-name,
+body.lesson-page .supplement-card { overflow-wrap: anywhere; }
+body.lesson-page pre { white-space: pre-wrap; max-width: 100%; overflow-x: auto; }
+body.lesson-page .table-wrap,
+body.lesson-page .label-table-wrap,
+body.lesson-page .table-responsive { width: 100%; max-width: 100%; overflow-x: auto; }
+body.lesson-page table { max-width: 100%; }
+body.lesson-page .lesson-tabs,
+body.lesson-page .view-tabs,
+body.lesson-page .supplement-nav { width: 100%; max-width: 100%; min-width: 0; overflow-x: auto; }
+body.lesson-page .lesson-tab,
+body.lesson-page .view-tab,
+body.lesson-page .supplement-nav-item { flex: 0 0 auto; min-height: 44px; }
+body.lesson-page .mcq-card,
+body.lesson-page .mcq-option,
+body.lesson-page .choice-text,
+body.lesson-page .answer-feedback { min-width: 0; max-width: 100%; }
+body.lesson-page .mcq-option { width: 100%; }
+body.lesson-page .choice-text { flex: 1 1 auto; }
+@media (max-width: 820px) {
+  body.lesson-page .lesson-shell { grid-template-columns: minmax(0, 1fr); }
+  body.lesson-page .lesson-main { overflow-x: hidden; }
+  body.lesson-page .lesson-content-stack > .offline-lesson { width: 100%; }
+  body.lesson-page .type-grid,
+  body.lesson-page .reading-grid,
+  body.lesson-page .nonchoice,
+  body.lesson-page .phase4eb-concept-grid,
+  body.lesson-page .contrast-grid,
+  body.lesson-page .evidence-grid,
+  body.lesson-page .sop-grid { grid-template-columns: minmax(0, 1fr); }
+  body.lesson-page .lesson-actions,
+  body.lesson-page .sop-row,
+  body.lesson-page .sop-group { flex-wrap: wrap; }
+  body.lesson-page .lesson-actions > *,
+  body.lesson-page .sop-row > *,
+  body.lesson-page .sop-group > * { min-width: 0; max-width: 100%; }
+}
+@media (max-width: 600px) {
+  body.lesson-page .site-header .wrap { padding-left: 12px; padding-right: 12px; }
+  body.lesson-page main.wrap { width: calc(100% - 16px); }
+  body.lesson-page .lesson-shell { margin-left: 0; margin-right: 0; }
+  body.lesson-page .lesson-content-stack .teaching-section,
+  body.lesson-page .lesson-content-stack .exam-question,
+  body.lesson-page .lesson-content-stack .source-context,
+  body.lesson-page .lesson-content-stack .reading-context,
+  body.lesson-page .lesson-content-stack .passage-card,
+  body.lesson-page .lesson-content-stack .translation-item,
+  body.lesson-page .lesson-content-stack .essay-card,
+  body.lesson-page .lesson-content-stack .mcq-card { padding-left: 12px; padding-right: 12px; }
+  body.lesson-page .contrast-card,
+  body.lesson-page .contrast-item,
+  body.lesson-page .sop-card { width: 100%; max-width: 100%; min-width: 0; }
+  body.lesson-page .lesson-pagination { flex-wrap: wrap; }
+  body.lesson-page .lesson-pagination > * { min-width: 44px; max-width: 100%; }
+}
 </style></head>
 <body class="lesson-page" id="offline-top">
 <header class="site-header"><div class="wrap"><p class="eyebrow">學測英文課綱完整教學</p><h1>學測英文 24 堂課綱詳細教學｜手機離線完整版</h1><p class="subtitle">24 課正文已預先渲染；可直接雙擊開啟，不需要伺服器或 JavaScript。</p></div></header>

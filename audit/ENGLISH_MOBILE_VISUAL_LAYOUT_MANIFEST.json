@@ -1,0 +1,43 @@
+{
+  "result": "PASS",
+  "scope": "presentation-only responsive layout hotfix",
+  "source": "offline-package-v4/index.html",
+  "lessons": 24,
+  "runtimeViews": 112,
+  "quizRecords": 192,
+  "mcqMappings": 408,
+  "answerLeak": 0,
+  "officialIntegrity": {
+    "passExact": 260,
+    "summaryCorrectlyLabeled": 5,
+    "fail": 0
+  },
+  "staticChecks": {
+    "fetch": 0,
+    "xmlHttpRequest": 0,
+    "module": 0,
+    "remoteDependencies": 0,
+    "externalCss": 0,
+    "externalJs": 0,
+    "parentDirectoryReferences": 0,
+    "fileUrl": "PASS"
+  },
+  "viewportChecks": {
+    "320": { "clientWidth": 305, "scrollWidth": 305, "offenders": 0, "result": "PASS" },
+    "360": { "clientWidth": 345, "scrollWidth": 345, "offenders": 0, "result": "PASS" },
+    "375": { "clientWidth": 360, "scrollWidth": 360, "offenders": 0, "result": "PASS" },
+    "390": { "clientWidth": 375, "scrollWidth": 375, "offenders": 0, "result": "PASS" },
+    "393": { "clientWidth": 378, "scrollWidth": 378, "offenders": 0, "result": "PASS" },
+    "412": { "clientWidth": 397, "scrollWidth": 397, "offenders": 0, "result": "PASS" },
+    "430": { "clientWidth": 415, "scrollWidth": 415, "offenders": 0, "result": "PASS" },
+    "768": { "clientWidth": 753, "scrollWidth": 753, "offenders": 0, "result": "PASS" },
+    "820": { "clientWidth": 805, "scrollWidth": 805, "offenders": 0, "result": "PASS" },
+    "1024": { "clientWidth": 1009, "scrollWidth": 1009, "offenders": 0, "result": "PASS" },
+    "1440": { "clientWidth": 1425, "scrollWidth": 1425, "offenders": 0, "result": "PASS" }
+  },
+  "actualBrowserRender": "PASS",
+  "screenshots": "SCREENSHOT_NOT_AVAILABLE",
+  "repoSync": "PASS",
+  "zipRebuilt": "PASS",
+  "dataChanged": "NO"
+}
