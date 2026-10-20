@@ -56,7 +56,7 @@ At 390px, Lesson 04 → view 2 was opened from the file URL. The first MCQ was s
 ## Regression metrics
 
 - Lessons: 24
-- Runtime lesson views: 112
+- Runtime lesson views: 111 (canonical `window.canonicalLessonData`: 24 lessons; actual lesson view records: 111)
 - Quiz records: 192
 - MCQ mappings: 408
 - Answer leak: 0

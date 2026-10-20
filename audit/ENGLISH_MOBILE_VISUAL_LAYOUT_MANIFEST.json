@@ -3,7 +3,7 @@
   "scope": "presentation-only responsive layout hotfix",
   "source": "offline-package-v4/index.html",
   "lessons": 24,
-  "runtimeViews": 112,
+  "runtimeViews": 111,
   "quizRecords": 192,
   "mcqMappings": 408,
   "answerLeak": 0,
@@ -39,5 +39,13 @@
   "screenshots": "SCREENSHOT_NOT_AVAILABLE",
   "repoSync": "PASS",
   "zipRebuilt": "PASS",
-  "dataChanged": "NO"
+  "dataChanged": "NO",
+  "viewCountAudit": {
+    "expected": 111,
+    "beforeReported": 112,
+    "afterCanonical": 111,
+    "extraViewIds": [],
+    "missingViewIds": [],
+    "rootCause": "audit counting bug: body class=lesson-page counted as a view"
+  }
 }
