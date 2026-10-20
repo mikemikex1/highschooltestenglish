@@ -72,9 +72,9 @@ Mobile spot checks loaded the homepage, Lesson 03 quiz route, Lessons 06, 07, 12
 
 ## Git
 
-- Local HEAD: `d97724bf5d9f946655819718484d1e6146aeb6a5`
-- Remote HEAD: `d97724bf5d9f946655819718484d1e6146aeb6a5`
-- Working tree: release source was clean at the online QA gate. These two audit files are local untracked audit outputs and were not committed or pushed.
+- Local HEAD: `9e3205870269214767f733679d291ac39eea5d6c`
+- Remote HEAD: `9e3205870269214767f733679d291ac39eea5d6c`
+- Working tree: clean after the canonical parser recovery commit.
 
 ## Final
 

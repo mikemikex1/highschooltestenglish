@@ -48,8 +48,8 @@
     "summaryCorrectlyLabeled": 5,
     "fail": 0
   },
-  "localHead": "d97724bf5d9f946655819718484d1e6146aeb6a5",
-  "remoteHead": "d97724bf5d9f946655819718484d1e6146aeb6a5",
-  "workingTreeAtReleaseGate": "clean",
+  "localHead": "9e3205870269214767f733679d291ac39eea5d6c",
+  "remoteHead": "9e3205870269214767f733679d291ac39eea5d6c",
+  "workingTreeAtReleaseGate": "clean_before_audit_update",
   "onlineReleaseReady": "YES"
 }
