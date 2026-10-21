@@ -9,5 +9,11 @@
   "approvedContentRewritten": false,
   "supplementChanged": false,
   "officialContentChanged": false,
-  "onlineReleaseReady": "PENDING_FINAL_ONLINE_QA"
+  "onlineReleaseReady": true,
+  "pagesHttp": 200,
+  "responsive": {"320": "PASS", "390": "PASS", "430": "PASS", "1024": "PASS", "1440": "PASS"},
+  "mobileOffenders": 0,
+  "consoleErrors": 0,
+  "failedResources": 0,
+  "onlineCommit": "3e45f5a4d037d477884d769ed91685cabcc12044"
 }
