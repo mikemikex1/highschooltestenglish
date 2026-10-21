@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "lesson": "lesson-03",
+  "view": "lesson-03-view-03",
+  "newPracticeCount": 10,
+  "optionsPerItem": 4,
+  "singleCorrectAnswer": true,
+  "explanationCount": 10,
+  "newViewCount": 0,
+  "totalViews": 111,
+  "practiceCount": 240,
+  "quizCount": 192,
+  "crossPracticeExactDuplicateGroups": 0,
+  "interaction": "PASS",
+  "reset": "PASS"
+}

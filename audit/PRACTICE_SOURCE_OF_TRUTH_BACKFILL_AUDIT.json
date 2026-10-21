@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "approvedSource": "C:/Users/Daming/Downloads/MANUAL_PRACTICE_REPLACEMENT_APPROVED.json",
+  "approvedReplacementItems": 201,
+  "approvedReplacementsMatched": 201,
+  "missingApprovedRecords": 0,
+  "stemMismatches": 0,
+  "optionMismatches": 0,
+  "correctAnswerMismatches": 0,
+  "explanationMismatches": 0,
+  "crossLessonExactDuplicateQuestions": 0,
+  "exactDuplicatePracticeSets": 0,
+  "lesson03Additions": 10,
+  "practiceCount": 240,
+  "quizCount": 192,
+  "approvedContentRewritten": false
+}

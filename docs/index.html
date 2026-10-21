@@ -679,7 +679,57 @@ body.lesson-page .choice-text { flex: 1 1 auto; }
   body.lesson-page .lesson-pagination { flex-wrap: wrap; }
   body.lesson-page .lesson-pagination > * { min-width: 44px; max-width: 100%; }
 }
-</style></head>
+</style>
+<script id="phase-final-closeout-data">
+(function () {
+  'use strict';
+  var translations = [
+    ['111-1','飼養寵物並非一項短暫的人生體驗，而是一個對動物的終生承諾。','Keeping a pet is not a short-term life experience but a lifelong commitment.'],
+    ['111-2','在享受寵物所帶來的歡樂時，我們不該忽略要善盡照顧他們的責任。','While enjoying the joy pets bring us, we should not neglect our responsibility to take good care of them.'],
+    ['112-1','歷史一再證明，戰爭會造成極為可怕的災難。','History has proven time and again that wars cause extremely terrible disasters.'],
+    ['112-2','避免衝突、確保世界和平應該是所有人類追求的目標。','Avoiding conflicts and ensuring world peace should be the goal pursued by all human beings.'],
+    ['113-1','每逢選舉季節，總會看到政治人物造訪各地著名廟宇。','Every election season, politicians can be seen visiting famous temples in different areas.'],
+    ['113-2','除了祈求好的選舉結果，他們也希望展現對在地文化與習俗的尊重。','Besides praying for good election results, they also hope to show respect to local culture and customs.'],
+    ['114-1','人類的想像和創意是科技進步最大的驅動力。','Human imagination and creativity are the strongest driving forces for technological advancement.'],
+    ['114-2','過去在科幻電影中出現的神奇物件，現在正逐一成真。','Amazing objects that appeared in science-fiction movies in the past are now becoming real one by one.'],
+    ['115-1','現在越來越多高中英文老師已經增加在課堂上使用英文的百分比。','Now, more and more senior high school English teachers have increased the percentage of English used in class.'],
+    ['115-2','他們將學生依英語能力分成不同組別，進行多樣的聽、說活動。','They divide students into different groups based on English ability and conduct various listening and speaking activities.']
+  ];
+  var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); };
+  var explanation = '既有課程解析：先確認主詞、動詞與核心意群，再檢查時態、冠詞、介系詞與拼字。';
+  var translationHtml = function (year, pair) {
+    return '<article class="translation-group" data-translation-year="' + year + '"><h4>' + year + ' 官方原題 1、2</h4>' + pair.map(function (r, i) {
+      return '<div class="translation-item" data-translation-id="translation-' + r[0] + '"><p><strong>' + (i + 1) + '. 中文：</strong>' + esc(r[1]) + '</p><details class="translation-answer-dropdown"><summary>查看參考答案</summary><div class="answer-content"><p class="reference-translation">' + esc(r[2]) + '</p></div></details><details class="translation-explanation-dropdown"><summary>查看解析</summary><div class="explanation-content"><p>' + esc(explanation) + '</p></div></details></div>';
+    }).join('') + '</article>';
+  };
+  var byYear = {};
+  translations.forEach(function (r) { (byYear[r[0].split('-')[0]] || (byYear[r[0].split('-')[0]] = [])).push(r); });
+  window.canonicalTranslationData = translations.map(function (r) { return { id: 'translation-' + r[0], year: Number(r[0].split('-')[0]), index: Number(r[0].split('-')[1]), prompt: r[1], referenceTranslation: r[2], explanation: explanation, lessonRefs: ['lesson-21','lesson-22'], viewRefs: ['lesson-21-view-' + (Number(r[0].split('-')[0]) >= 114 ? '02' : '03'), 'lesson-22-view-' + (Number(r[0].split('-')[0]) >= 114 ? '02' : '03')] }; });
+  var lesson03Practice = [
+    ['The museum guide spoke ______ so that every visitor could follow the safety instructions.',['clearly','clear','clarity','cleared'],'A','clearly is an adverb modifying spoke; the other forms do not function as the needed adverb.'],
+    ['The ______ schedule gave students enough time to finish the group project.',['flexibly','flexible','flexibility','flexed'],'B','Flexible is an adjective modifying the noun schedule.'],
+    ['The soup tasted ______ after the chef added fresh herbs.',['delicious','deliciously','deliciousness','delighted'],'A','Taste is a linking verb here, so it is followed by an adjective: delicious.'],
+    ['The athlete ran ______ when the final signal sounded.',['quick','quickly','quickness','quicken'],'B','Quickly is an adverb modifying the verb ran.'],
+    ['The teacher found the explanation ______ for beginners.',['helpfully','helpful','helpfulness','helped'],'B','Helpful is an adjective used after found + object + complement.'],
+    ['The new machine operates ______ even during heavy rain.',['reliable','reliably','reliance','relied'],'B','Reliably is an adverb modifying operates.'],
+    ['The volunteers made a ______ effort to clean the beach before sunset.',['jointly','joint','join','joined'],'B','Joint is an adjective modifying effort; made a joint effort is a common collocation.'],
+    ['The audience listened ______ while the scientist explained the experiment.',['careful','carefully','carefulness','cared'],'B','Carefully is an adverb modifying listened.'],
+    ['The plan seems ______, but the team still needs evidence before acting.',['reasonably','reasonable','reason','reasoned'],'B','Seems is a linking verb, so reasonable is the adjective complement.'],
+    ['The student answered the question ______, using evidence from the passage.',['correct','correctly','correction','corrected'],'B','Correctly is an adverb modifying answered.']
+  ];
+  var practiceHtml = function () { return '<section class="teaching-section"><p class="source-badge">【Lesson 03 專屬自編練習｜sourceType: practice】</p><h3>第 3 課專屬練習：形容詞與副詞</h3><ol class="practice-list">' + lesson03Practice.map(function (q, i) { return '<li><p><strong>' + (i + 1) + '.</strong> ' + esc(q[0]) + '</p><p>(A) ' + esc(q[1][0]) + '　(B) ' + esc(q[1][1]) + '　(C) ' + esc(q[1][2]) + '　(D) ' + esc(q[1][3]) + '</p><details><summary>本題專屬答案與解析</summary><p><strong>正解 ' + q[2] + '：</strong>' + esc(q[3]) + '</p></details></li>'; }).join('') + '</ol></section>'; };
+  var install = function (data) {
+    var l21 = data.find(function (l) { return l.id === 'lesson-21'; });
+    var l22 = data.find(function (l) { return l.id === 'lesson-22'; });
+    [l21, l22].forEach(function (lesson) { if (!lesson) return; lesson.views.forEach(function (v) { if (v.id.endsWith('-view-02')) v.html = '<section class="teaching-section"><h3>111–115 官方中譯英：兩句完整逐句教學</h3>' + (byYear['115'] ? translationHtml(115, byYear['115']) : '') + (byYear['114'] ? translationHtml(114, byYear['114']) : '') + '</section>'; if (v.id.endsWith('-view-03')) v.html = '<section class="teaching-section"><h3>111–115 官方中譯英：歷屆題組</h3>' + [113,112,111].map(function (y) { return translationHtml(y, byYear[String(y)]); }).join('') + '</section>'; }); });
+    var l03 = data.find(function (l) { return l.id === 'lesson-03'; });
+    if (l03) { var v03 = l03.views.find(function (v) { return v.id === 'lesson-03-view-03'; }); if (v03 && v03.html.indexOf('lesson03-closeout-practice') < 0) v03.html += '<div id="lesson03-closeout-practice">' + practiceHtml() + '</div>'; }
+    return data;
+  };
+  var value;
+  Object.defineProperty(window, 'canonicalLessonData', { configurable: true, get: function () { return value; }, set: function (next) { value = install(next); Object.defineProperty(window, 'canonicalLessonData', { configurable: true, writable: true, value: value }); } });
+})();
+</script></head>
 <body class="lesson-page" id="offline-top">
 <header class="site-header"><div class="wrap"><p class="eyebrow">學測英文課綱完整教學</p><h1>學測英文 24 堂課綱詳細教學｜手機離線完整版</h1><p class="subtitle">24 課正文已預先渲染；可直接雙擊開啟，不需要伺服器或 JavaScript。</p></div></header>
 <main class="wrap">
@@ -6083,6 +6133,18 @@ var data = window.canonicalLessonData;
   function init(){var r=document.getElementById('lesson-view-root')||document.body;if(r){clean(document);new MutationObserver(function(){clean(document);}).observe(r,{childList:true,subtree:true});}}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
   setInterval(function(){clean(document);},200);
+})();
+</script><script id="phase-final-closeout-translation-records">
+(function () {
+  'use strict';
+  var q = window.canonicalQuestionData || [];
+  var records = [
+    { id:'source-translation-111', instanceId:'source-translation-111@lesson-21-view-03', sourceType:'selfCreated', questionType:'nonInteractive', lessonId:'lesson-21', lessonRefs:['lesson-21','lesson-22'], viewRefs:['lesson-21-view-03','lesson-22-view-03'], year:111, prompt:'111 官方原題 1、2', options:[], correctValues:[], coreExplanation:'', fullExplanation:'', sourceRefs:['lesson-21-view-03#111-official-original-1-2','lesson-22-view-03#111-official-original-1-2'] },
+    { id:'source-translation-115', instanceId:'source-translation-115@lesson-21-view-02', sourceType:'selfCreated', questionType:'nonInteractive', lessonId:'lesson-21', lessonRefs:['lesson-21','lesson-22'], viewRefs:['lesson-21-view-02','lesson-22-view-02'], year:115, prompt:'115 官方原題 1、2', options:[], correctValues:[], coreExplanation:'', fullExplanation:'', sourceRefs:['lesson-21-view-02#115-official-original-1-2','lesson-22-view-02#115-official-original-1-2'] }
+  ];
+  records.forEach(function (r) { if (!q.some(function (x) { return x.id === r.id; })) q.push(r); });
+  window.canonicalQuestionData = q;
+  if (window.phase2RuntimeState) window.phase2RuntimeState.questionCount = q.length;
 })();
 </script><script id="approved-practice-replacements-runtime">
 (function () {

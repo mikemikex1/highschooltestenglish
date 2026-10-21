@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "lessons": ["lesson-21", "lesson-22"],
+  "sourcePromptCount": 10,
+  "renderedCardCount": 20,
+  "promptMissing": 0,
+  "referenceAnswerMissing": 0,
+  "rendererAnswerOmission": 0,
+  "emptyAnswerPanels": 0,
+  "rendererExplanationOmission": 0,
+  "emptyExplanationPanels": 0,
+  "answerLeak": 0,
+  "answerControls": 20,
+  "explanationControlsWithContent": 20,
+  "fileProtocol": "PASS"
+}
