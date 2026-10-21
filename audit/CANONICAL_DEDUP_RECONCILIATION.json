@@ -1,0 +1,55 @@
+{
+  "result": "FAIL_INSUFFICIENT_HISTORICAL_RECORD_LEVEL_EVIDENCE",
+  "historicalSerializedRecords": 632,
+  "canonicalUniqueRecords": 512,
+  "deduplicatedRecords": 120,
+  "mappedRemovedInstances": 0,
+  "unmappedRemovedInstances": 120,
+  "historicalSourceTypeCounts": {
+    "official": 161,
+    "selfCreated": 49,
+    "practice": 230,
+    "quiz": 192
+  },
+  "canonicalSourceTypeCounts": {
+    "official": 76,
+    "selfCreated": 14,
+    "practice": 230,
+    "quiz": 192
+  },
+  "sourceTypeReconciliation": {
+    "official": {"historical": 161, "retained": 76, "difference": 85, "mapped": 0, "unmapped": 85},
+    "selfCreated": {"historical": 49, "retained": 14, "difference": 35, "mapped": 0, "unmapped": 35},
+    "practice": {"historical": 230, "retained": 230, "difference": 0, "mapped": 0, "unmapped": 0},
+    "quiz": {"historical": 192, "retained": 192, "difference": 0, "mapped": 0, "unmapped": 0}
+  },
+  "reconciliationMap": [],
+  "evidenceLimitations": [
+    "The repository contains aggregate historical counts but no retained 632-record inventory with oldSerializedId, oldLesson, oldView, stem, options, answer, and explanation fingerprints.",
+    "The current canonical data cannot reconstruct removed serialized instances after the stable-ID reduction.",
+    "Therefore the 120-record duplicate claim cannot be proven record-by-record from available artifacts."
+  ],
+  "currentRuntimeChecks": {
+    "lessons": 24,
+    "views": 111,
+    "canonicalIdsUnique": true,
+    "canonicalInstanceIdsUnique": true,
+    "quiz": 192,
+    "mcqMappings": 408,
+    "answerLeak": 0,
+    "lessonViewCoverageLoss": "NOT_PROVABLE_FROM_MISSING_HISTORICAL_MAP",
+    "answerMappingLoss": "NOT_OBSERVED_IN_CURRENT_RUNTIME"
+  },
+  "spotChecks": {
+    "official-115-q18": "PRESENT_WITH_STABLE_ID_AND_VIEW_REFS",
+    "official-115-q21-q24": "PRESENT_WITH_GROUP_REFS",
+    "lesson-08-practice": "PRESENT",
+    "lesson-09": "PRESENT",
+    "lesson-13": "PRESENT",
+    "lesson-19": "PRESENT"
+  },
+  "contentChanged": false,
+  "websiteChanged": false,
+  "commitCreated": false,
+  "pushPerformed": false
+}

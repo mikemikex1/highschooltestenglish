@@ -1,0 +1,727 @@
+{
+  "result": "PENDING_MANUAL_PRACTICE_REPLACEMENT",
+  "sourcePracticeRecords": 230,
+  "canonicalPracticeRecords": 230,
+  "lessonsWithPractice": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06",
+    "lesson-07",
+    "lesson-08",
+    "lesson-09",
+    "lesson-10",
+    "lesson-11",
+    "lesson-12",
+    "lesson-13",
+    "lesson-14",
+    "lesson-15",
+    "lesson-16",
+    "lesson-17",
+    "lesson-18",
+    "lesson-19",
+    "lesson-20",
+    "lesson-21",
+    "lesson-22",
+    "lesson-23",
+    "lesson-24"
+  ],
+  "practiceSets": {
+    "lesson-01": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-1-practice-1246de71",
+        "lesson-1-practice-73ffadb1",
+        "lesson-1-practice-b43bc4b8",
+        "lesson-1-practice-d6cf0018",
+        "lesson-1-practice-f7e5effb",
+        "lesson-1-practice-541c872b",
+        "lesson-1-practice-97614c98",
+        "lesson-1-practice-c5d48282",
+        "lesson-1-practice-7d7c5e3f",
+        "lesson-1-practice-59bdcd39"
+      ],
+      "questionFingerprints": [
+        "because two experienced teachers retired unexpectedly, the school had to advertise a teaching ______ before the new semester began.||passion|vacancy|consumption|assistant",
+        "the new program is designed to ______ students to access reliable information and evaluate different sources.||enable|decline|contain|occur",
+        "regular practice can lead to better performance, but it does not guarantee immediate success.||result|lead|create|decline",
+        "by the time the rescue team arrived, the hikers ______ in the shelter for nearly six hours.||waited|have waited|had been waiting|are waiting",
+        "the article gives several examples to ______ the claim that small changes can reduce waste.||support|escape|wander|replace",
+        "some students prefer digital notes. ______, others remember information better when they write by hand.||as a result|in contrast|for this reason|in other words",
+        "taking a short nap is helpful only if it does not ______ students from sleeping well at night.||prevent|prevent to|prevent from|prevent students",
+        "read the sentence: “the city introduced free buses for older residents. this policy reduced the number of short car trips.” what does “this policy” refer to?||older residents|free buses|the city|reducing trips",
+        "文章指出一項方法有好處，但也說明成本高、需要訓練。下列哪個推論最安全？||the method is the only solution.|everyone will adopt the method.|the method may work well when its costs are manageable.|the method always produces perfect results.",
+        "請用英文寫兩句：第一句說明「越來越多人使用數位工具」；第二句用原因連接詞說明「因為它們容易取得資訊」。||"
+      ],
+      "practiceSetFingerprint": "because two experienced teachers retired unexpectedly, the school had to advertise a teaching ______ before the new semester began.||passion|vacancy|consumption|assistant||the new program is designed to ______ students to access reliable information and evaluate different sources.||enable|decline|contain|occur||regular practice can lead to better performance, but it does not guarantee immediate success.||result|lead|create|decline||by the time the rescue team arrived, the hikers ______ in the shelter for nearly six hours.||waited|have waited|had been waiting|are waiting||the article gives several examples to ______ the claim that small changes can reduce waste.||support|escape|wander|replace||some students prefer digital notes. ______, others remember information better when they write by hand.||as a result|in contrast|for this reason|in other words||taking a short nap is helpful only if it does not ______ students from sleeping well at night.||prevent|prevent to|prevent from|prevent students||read the sentence: “the city introduced free buses for older residents. this policy reduced the number of short car trips.” what does “this policy” refer to?||older residents|free buses|the city|reducing trips||文章指出一項方法有好處，但也說明成本高、需要訓練。下列哪個推論最安全？||the method is the only solution.|everyone will adopt the method.|the method may work well when its costs are manageable.|the method always produces perfect results.||請用英文寫兩句：第一句說明「越來越多人使用數位工具」；第二句用原因連接詞說明「因為它們容易取得資訊」。||"
+    },
+    "lesson-02": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-2-practice-1246de71",
+        "lesson-2-practice-94f82bdc",
+        "lesson-2-practice-ce7d7e32",
+        "lesson-2-practice-fc4f1c8a",
+        "lesson-2-practice-48d67d03",
+        "lesson-2-practice-fb427805",
+        "lesson-2-practice-d878836d",
+        "lesson-2-practice-d31089bf",
+        "lesson-2-practice-6ae9289a",
+        "lesson-2-practice-241fcffa"
+      ],
+      "questionFingerprints": [
+        "because two experienced teachers retired unexpectedly, the school had to advertise a teaching ______ before the new semester began.||passion|vacancy|consumption|assistant",
+        "although kevin knew the speech was important, he still ______ the thought of standing in front of the entire school.||dreads|produces|retains|accommodates",
+        "after years of practice, the young musician decided to ______ her passion for composing film music.||pursue|pose|halt|recall",
+        "when the train doors opened, the late passengers had to ______ their way through the crowd before the warning bell rang.||elbow|tumble|expose|convert",
+        "the report does not simply repeat the company’s advertisement; instead, it presents evidence to ______ the claim that the product is completely risk-free.||counter|accommodate|wander|promise",
+        "the museum’s new guide is expected to ______ visitors with accurate information and answer questions about the exhibition.||assist|assistance|assistant|assisting",
+        "since the project involves several schools, the coordinator must collect enough ______ before making a final decision.||information|informations|an information|informative",
+        "the manager did not ______ credit for the team’s success; she openly praised everyone who had contributed.||take|make|pursue|recall",
+        "at first, the proposal seemed expensive. however, after the researchers explained how it could reduce medical waste over time, the committee began to ______ the plan seriously.||consider|considering|considered|consideration",
+        "when a school advertises a position, it should describe the required skills clearly so that qualified ______ can decide whether to apply.||applicants|vacancies|expectations|inspirations"
+      ],
+      "practiceSetFingerprint": "because two experienced teachers retired unexpectedly, the school had to advertise a teaching ______ before the new semester began.||passion|vacancy|consumption|assistant||although kevin knew the speech was important, he still ______ the thought of standing in front of the entire school.||dreads|produces|retains|accommodates||after years of practice, the young musician decided to ______ her passion for composing film music.||pursue|pose|halt|recall||when the train doors opened, the late passengers had to ______ their way through the crowd before the warning bell rang.||elbow|tumble|expose|convert||the report does not simply repeat the company’s advertisement; instead, it presents evidence to ______ the claim that the product is completely risk-free.||counter|accommodate|wander|promise||the museum’s new guide is expected to ______ visitors with accurate information and answer questions about the exhibition.||assist|assistance|assistant|assisting||since the project involves several schools, the coordinator must collect enough ______ before making a final decision.||information|informations|an information|informative||the manager did not ______ credit for the team’s success; she openly praised everyone who had contributed.||take|make|pursue|recall||at first, the proposal seemed expensive. however, after the researchers explained how it could reduce medical waste over time, the committee began to ______ the plan seriously.||consider|considering|considered|consideration||when a school advertises a position, it should describe the required skills clearly so that qualified ______ can decide whether to apply.||applicants|vacancies|expectations|inspirations"
+    },
+    "lesson-04": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-4-practice-a9f26735",
+        "lesson-4-practice-641ae8e3",
+        "lesson-4-practice-f725c284",
+        "lesson-4-practice-ce8d8d3e",
+        "lesson-4-practice-8f227366",
+        "lesson-4-practice-36880698",
+        "lesson-4-practice-920d6c05",
+        "lesson-4-practice-34967d66",
+        "lesson-4-practice-1e18a48e",
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-05": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-5-practice-a9f26735",
+        "lesson-5-practice-641ae8e3",
+        "lesson-5-practice-f725c284",
+        "lesson-5-practice-ce8d8d3e",
+        "lesson-5-practice-8f227366",
+        "lesson-5-practice-36880698",
+        "lesson-5-practice-920d6c05",
+        "lesson-5-practice-34967d66",
+        "lesson-5-practice-1e18a48e",
+        "lesson-5-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-06": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-6-practice-a9f26735",
+        "lesson-6-practice-641ae8e3",
+        "lesson-6-practice-f725c284",
+        "lesson-6-practice-ce8d8d3e",
+        "lesson-6-practice-8f227366",
+        "lesson-6-practice-36880698",
+        "lesson-6-practice-920d6c05",
+        "lesson-6-practice-34967d66",
+        "lesson-6-practice-1e18a48e",
+        "lesson-6-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-07": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-7-practice-a9f26735",
+        "lesson-7-practice-641ae8e3",
+        "lesson-7-practice-f725c284",
+        "lesson-7-practice-ce8d8d3e",
+        "lesson-7-practice-8f227366",
+        "lesson-7-practice-36880698",
+        "lesson-7-practice-920d6c05",
+        "lesson-7-practice-34967d66",
+        "lesson-7-practice-1e18a48e",
+        "lesson-7-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-08": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-8-practice-a9f26735",
+        "lesson-8-practice-641ae8e3",
+        "lesson-8-practice-f725c284",
+        "lesson-8-practice-ce8d8d3e",
+        "lesson-8-practice-8f227366",
+        "lesson-8-practice-36880698",
+        "lesson-8-practice-920d6c05",
+        "lesson-8-practice-34967d66",
+        "lesson-8-practice-1e18a48e",
+        "lesson-8-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-09": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-9-practice-a9f26735",
+        "lesson-9-practice-641ae8e3",
+        "lesson-9-practice-f725c284",
+        "lesson-9-practice-ce8d8d3e",
+        "lesson-9-practice-8f227366",
+        "lesson-9-practice-36880698",
+        "lesson-9-practice-920d6c05",
+        "lesson-9-practice-34967d66",
+        "lesson-9-practice-1e18a48e",
+        "lesson-9-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-10": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-10-practice-a9f26735",
+        "lesson-10-practice-641ae8e3",
+        "lesson-10-practice-f725c284",
+        "lesson-10-practice-ce8d8d3e",
+        "lesson-10-practice-8f227366",
+        "lesson-10-practice-36880698",
+        "lesson-10-practice-920d6c05",
+        "lesson-10-practice-34967d66",
+        "lesson-10-practice-1e18a48e",
+        "lesson-10-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-11": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-11-practice-a9f26735",
+        "lesson-11-practice-641ae8e3",
+        "lesson-11-practice-f725c284",
+        "lesson-11-practice-ce8d8d3e",
+        "lesson-11-practice-8f227366",
+        "lesson-11-practice-36880698",
+        "lesson-11-practice-920d6c05",
+        "lesson-11-practice-34967d66",
+        "lesson-11-practice-1e18a48e",
+        "lesson-11-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-12": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-12-practice-a9f26735",
+        "lesson-12-practice-641ae8e3",
+        "lesson-12-practice-f725c284",
+        "lesson-12-practice-ce8d8d3e",
+        "lesson-12-practice-8f227366",
+        "lesson-12-practice-36880698",
+        "lesson-12-practice-920d6c05",
+        "lesson-12-practice-34967d66",
+        "lesson-12-practice-1e18a48e",
+        "lesson-12-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-13": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-13-practice-a9f26735",
+        "lesson-13-practice-641ae8e3",
+        "lesson-13-practice-f725c284",
+        "lesson-13-practice-ce8d8d3e",
+        "lesson-13-practice-8f227366",
+        "lesson-13-practice-36880698",
+        "lesson-13-practice-920d6c05",
+        "lesson-13-practice-34967d66",
+        "lesson-13-practice-1e18a48e",
+        "lesson-13-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-14": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-14-practice-a9f26735",
+        "lesson-14-practice-641ae8e3",
+        "lesson-14-practice-f725c284",
+        "lesson-14-practice-ce8d8d3e",
+        "lesson-14-practice-8f227366",
+        "lesson-14-practice-36880698",
+        "lesson-14-practice-920d6c05",
+        "lesson-14-practice-34967d66",
+        "lesson-14-practice-1e18a48e",
+        "lesson-14-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-15": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-15-practice-a9f26735",
+        "lesson-15-practice-641ae8e3",
+        "lesson-15-practice-f725c284",
+        "lesson-15-practice-ce8d8d3e",
+        "lesson-15-practice-8f227366",
+        "lesson-15-practice-36880698",
+        "lesson-15-practice-920d6c05",
+        "lesson-15-practice-34967d66",
+        "lesson-15-practice-1e18a48e",
+        "lesson-15-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-16": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-16-practice-a9f26735",
+        "lesson-16-practice-641ae8e3",
+        "lesson-16-practice-f725c284",
+        "lesson-16-practice-ce8d8d3e",
+        "lesson-16-practice-8f227366",
+        "lesson-16-practice-36880698",
+        "lesson-16-practice-920d6c05",
+        "lesson-16-practice-34967d66",
+        "lesson-16-practice-1e18a48e",
+        "lesson-16-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-17": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-17-practice-a9f26735",
+        "lesson-17-practice-641ae8e3",
+        "lesson-17-practice-f725c284",
+        "lesson-17-practice-ce8d8d3e",
+        "lesson-17-practice-8f227366",
+        "lesson-17-practice-36880698",
+        "lesson-17-practice-920d6c05",
+        "lesson-17-practice-34967d66",
+        "lesson-17-practice-1e18a48e",
+        "lesson-17-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-18": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-18-practice-a9f26735",
+        "lesson-18-practice-641ae8e3",
+        "lesson-18-practice-f725c284",
+        "lesson-18-practice-ce8d8d3e",
+        "lesson-18-practice-8f227366",
+        "lesson-18-practice-36880698",
+        "lesson-18-practice-920d6c05",
+        "lesson-18-practice-34967d66",
+        "lesson-18-practice-1e18a48e",
+        "lesson-18-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-19": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-19-practice-a9f26735",
+        "lesson-19-practice-641ae8e3",
+        "lesson-19-practice-f725c284",
+        "lesson-19-practice-ce8d8d3e",
+        "lesson-19-practice-8f227366",
+        "lesson-19-practice-36880698",
+        "lesson-19-practice-920d6c05",
+        "lesson-19-practice-34967d66",
+        "lesson-19-practice-1e18a48e",
+        "lesson-19-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-20": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-20-practice-a9f26735",
+        "lesson-20-practice-641ae8e3",
+        "lesson-20-practice-f725c284",
+        "lesson-20-practice-ce8d8d3e",
+        "lesson-20-practice-8f227366",
+        "lesson-20-practice-36880698",
+        "lesson-20-practice-920d6c05",
+        "lesson-20-practice-34967d66",
+        "lesson-20-practice-1e18a48e",
+        "lesson-20-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-21": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-21-practice-a9f26735",
+        "lesson-21-practice-641ae8e3",
+        "lesson-21-practice-f725c284",
+        "lesson-21-practice-ce8d8d3e",
+        "lesson-21-practice-8f227366",
+        "lesson-21-practice-36880698",
+        "lesson-21-practice-920d6c05",
+        "lesson-21-practice-34967d66",
+        "lesson-21-practice-1e18a48e",
+        "lesson-21-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-22": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-22-practice-a9f26735",
+        "lesson-22-practice-641ae8e3",
+        "lesson-22-practice-f725c284",
+        "lesson-22-practice-ce8d8d3e",
+        "lesson-22-practice-8f227366",
+        "lesson-22-practice-36880698",
+        "lesson-22-practice-920d6c05",
+        "lesson-22-practice-34967d66",
+        "lesson-22-practice-1e18a48e",
+        "lesson-22-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-23": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-23-practice-a9f26735",
+        "lesson-23-practice-641ae8e3",
+        "lesson-23-practice-f725c284",
+        "lesson-23-practice-ce8d8d3e",
+        "lesson-23-practice-8f227366",
+        "lesson-23-practice-36880698",
+        "lesson-23-practice-920d6c05",
+        "lesson-23-practice-34967d66",
+        "lesson-23-practice-1e18a48e",
+        "lesson-23-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    },
+    "lesson-24": {
+      "practiceCount": 10,
+      "practiceIds": [
+        "lesson-24-practice-a9f26735",
+        "lesson-24-practice-641ae8e3",
+        "lesson-24-practice-f725c284",
+        "lesson-24-practice-ce8d8d3e",
+        "lesson-24-practice-8f227366",
+        "lesson-24-practice-36880698",
+        "lesson-24-practice-920d6c05",
+        "lesson-24-practice-34967d66",
+        "lesson-24-practice-1e18a48e",
+        "lesson-24-practice-ead8cc1f"
+      ],
+      "questionFingerprints": [
+        "decided to ______ the conclusion.||revise|revision|revised|revising",
+        "had to ______ the timetable.||adjust|adjustment|adjusted|adjusting",
+        "the paragraph ______ a different cause.||indicated|indication|indicating|indicates",
+        "they ______ to the next question.||proceed|proceeding|proceeded|procedure",
+        "each school ______ it in practice.||applies|application|applied|applying",
+        "instead of ______ a conclusion.||infer|inference|inferred|inferring",
+        "each measurement ______.||occurred|occurs|occurrence|occurring",
+        "the example ______ included.||is|be|being|was",
+        "that ______ the meaning.||distorts|distortion|distorted|distorting",
+        "paragraphs ______ every task.||address|addresses|addressed|addressing"
+      ],
+      "practiceSetFingerprint": "decided to ______ the conclusion.||revise|revision|revised|revising||had to ______ the timetable.||adjust|adjustment|adjusted|adjusting||the paragraph ______ a different cause.||indicated|indication|indicating|indicates||they ______ to the next question.||proceed|proceeding|proceeded|procedure||each school ______ it in practice.||applies|application|applied|applying||instead of ______ a conclusion.||infer|inference|inferred|inferring||each measurement ______.||occurred|occurs|occurrence|occurring||the example ______ included.||is|be|being|was||that ______ the meaning.||distorts|distortion|distorted|distorting||paragraphs ______ every task.||address|addresses|addressed|addressing"
+    }
+  },
+  "exactDuplicateQuestionsAcrossLessons": 201,
+  "exactDuplicateQuestionGroups": 11,
+  "exactDuplicatePracticeSets": 20,
+  "exactDuplicatePracticeSetGroups": 1,
+  "partialDuplicateRate": 1,
+  "identicalFirstQuestion": 211,
+  "identicalStemDifferentOptions": 0,
+  "identicalStemSameOptions": 2101,
+  "sourcePracticeDuplication": 201,
+  "parserPracticeDuplication": 0,
+  "canonicalMappingDuplication": 0,
+  "rendererDuplication": 0,
+  "viewBindingErrors": 0,
+  "optionMismatchBefore": 1,
+  "optionMismatchAfter": 0,
+  "lesson01VsLesson02": {
+    "lessonA": "lesson-01",
+    "lessonB": "lesson-02",
+    "exactDuplicateQuestionsAcrossLessons": 1,
+    "exactDuplicateQuestionIds": [
+      "lesson-1-practice-1246de71"
+    ],
+    "identicalFirstQuestion": true,
+    "identicalStemDifferentOptions": 0,
+    "identicalStemSameOptions": 1
+  },
+  "requiredManualReplacementLessons": [
+    "lesson-02",
+    "lesson-05",
+    "lesson-06",
+    "lesson-07",
+    "lesson-08",
+    "lesson-09",
+    "lesson-10",
+    "lesson-11",
+    "lesson-12",
+    "lesson-13",
+    "lesson-14",
+    "lesson-15",
+    "lesson-16",
+    "lesson-17",
+    "lesson-18",
+    "lesson-19",
+    "lesson-20",
+    "lesson-21",
+    "lesson-22",
+    "lesson-23",
+    "lesson-24"
+  ],
+  "manualReplacementItemCount": 201,
+  "rootCause": "SOURCE_PRACTICE_DUPLICATION"
+}

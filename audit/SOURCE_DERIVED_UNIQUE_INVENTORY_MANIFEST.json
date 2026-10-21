@@ -1,0 +1,51 @@
+{
+  "result": "PENDING_MANUAL_PRACTICE_REPLACEMENT",
+  "expectedSourceDerivedUniqueTotal": 508,
+  "canonicalUniqueTotal": 516,
+  "counts": {
+    "official": 76,
+    "selfCreated": 10,
+    "practice": 230,
+    "quiz": 192,
+    "total": 508
+  },
+  "official": {
+    "expected": 76,
+    "matched": 76,
+    "missing": 0
+  },
+  "selfCreated": {
+    "expected": 10,
+    "matched": 10,
+    "missing": 0,
+    "recovered": [
+      "source-translation-112",
+      "source-translation-113",
+      "source-composition-112",
+      "source-composition-113"
+    ]
+  },
+  "practice": {
+    "expected": 230,
+    "matched": 230,
+    "optionMismatches": 0,
+    "crossLessonSourceDuplicates": 201,
+    "manualReplacementRequired": 201
+  },
+  "quiz": {
+    "expected": 192,
+    "matched": 192
+  },
+  "runtime": {
+    "lessons": 24,
+    "views": 111,
+    "quiz": 192,
+    "mcqMappings": 408,
+    "answerLeak": 0
+  },
+  "officialIntegrity": {
+    "passExact": 260,
+    "summaryCorrectlyLabeled": 5,
+    "fail": 0
+  }
+}

@@ -1,0 +1,4427 @@
+{
+  "result": "PENDING_MANUAL_PRACTICE_REPLACEMENT",
+  "items": [
+    {
+      "lesson": "lesson-02",
+      "view": "lesson-02-view-03",
+      "practiceId": "lesson-2-practice-1246de71",
+      "currentStem": "Because two experienced teachers retired unexpectedly, the school had to advertise a teaching ______ before the new semester began.",
+      "options": [
+        "passion",
+        "vacancy",
+        "consumption",
+        "assistant"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-01"
+      ],
+      "duplicateWithIds": [
+        "lesson-1-practice-1246de71"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-a9f26735",
+      "currentStem": "decided to ______ the conclusion.",
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-a9f26735"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-641ae8e3",
+      "currentStem": "had to ______ the timetable.",
+      "options": [
+        "adjust",
+        "adjustment",
+        "adjusted",
+        "adjusting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-641ae8e3"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-f725c284",
+      "currentStem": "the paragraph ______ a different cause.",
+      "options": [
+        "indicated",
+        "indication",
+        "indicating",
+        "indicates"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-f725c284"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-ce8d8d3e",
+      "currentStem": "they ______ to the next question.",
+      "options": [
+        "proceed",
+        "proceeding",
+        "proceeded",
+        "procedure"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ce8d8d3e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-8f227366",
+      "currentStem": "each school ______ it in practice.",
+      "options": [
+        "applies",
+        "application",
+        "applied",
+        "applying"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-8f227366"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-36880698",
+      "currentStem": "instead of ______ a conclusion.",
+      "options": [
+        "infer",
+        "inference",
+        "inferred",
+        "inferring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-36880698"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-920d6c05",
+      "currentStem": "each measurement ______.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurrence",
+        "occurring"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-920d6c05"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-34967d66",
+      "currentStem": "the example ______ included.",
+      "options": [
+        "is",
+        "be",
+        "being",
+        "was"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-34967d66"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-1e18a48e",
+      "currentStem": "that ______ the meaning.",
+      "options": [
+        "distorts",
+        "distortion",
+        "distorted",
+        "distorting"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-1e18a48e"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-05",
+      "view": "lesson-05-view-04",
+      "practiceId": "lesson-5-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-06",
+      "view": "lesson-06-view-04",
+      "practiceId": "lesson-6-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-07",
+      "view": "lesson-07-view-04",
+      "practiceId": "lesson-7-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-08",
+      "view": "lesson-08-view-04",
+      "practiceId": "lesson-8-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-09",
+      "view": "lesson-09-view-04",
+      "practiceId": "lesson-9-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-10",
+      "view": "lesson-10-view-04",
+      "practiceId": "lesson-10-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-11",
+      "view": "lesson-11-view-04",
+      "practiceId": "lesson-11-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-12",
+      "view": "lesson-12-view-04",
+      "practiceId": "lesson-12-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-13",
+      "view": "lesson-13-view-04",
+      "practiceId": "lesson-13-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-14",
+      "view": "lesson-14-view-04",
+      "practiceId": "lesson-14-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-15",
+      "view": "lesson-15-view-04",
+      "practiceId": "lesson-15-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-16",
+      "view": "lesson-16-view-04",
+      "practiceId": "lesson-16-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-17",
+      "view": "lesson-17-view-04",
+      "practiceId": "lesson-17-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-18",
+      "view": "lesson-18-view-04",
+      "practiceId": "lesson-18-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-19",
+      "view": "lesson-19-view-04",
+      "practiceId": "lesson-19-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-20",
+      "view": "lesson-20-view-04",
+      "practiceId": "lesson-20-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-21",
+      "view": "lesson-21-view-04",
+      "practiceId": "lesson-21-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-22",
+      "view": "lesson-22-view-04",
+      "practiceId": "lesson-22-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-23",
+      "view": "lesson-23-view-04",
+      "practiceId": "lesson-23-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    },
+    {
+      "lesson": "lesson-24",
+      "view": "lesson-24-view-04",
+      "practiceId": "lesson-24-practice-ead8cc1f",
+      "currentStem": "paragraphs ______ every task.",
+      "options": [
+        "address",
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "correctAnswer": null,
+      "existingExplanation": "",
+      "lessonLearningTarget": "",
+      "duplicateWithLessons": [
+        "lesson-04"
+      ],
+      "duplicateWithIds": [
+        "lesson-4-practice-ead8cc1f"
+      ],
+      "whyReplacementNeeded": "Source contains the same stem and options in another lesson; replacement requires PM-approved source content and is not generated in this remediation."
+    }
+  ]
+}
