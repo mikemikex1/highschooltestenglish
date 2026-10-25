@@ -1,0 +1,66 @@
+{
+  "result": "OFFICIAL_ANSWER_CONFLICT_RESOLVED",
+  "scope": "115 Q31 and 112 Q42 official answer authority reconciliation",
+  "records": [
+    {
+      "questionId": "official-115-q31",
+      "year": 115,
+      "questionNumber": 31,
+      "officialPdfAnswer": "C",
+      "canonicalBefore": "D",
+      "canonicalAfter": "C",
+      "rootCause": "ANSWER_SERIALIZATION_ERROR",
+      "optionOrderMismatch": 0,
+      "explanationConflictFound": 0,
+      "status": "RESOLVED_DATA_LEVEL"
+    },
+    {
+      "questionId": "official-112-q42",
+      "year": 112,
+      "questionNumber": 42,
+      "questionPdf": "docs/PDF/02-112學測英文試卷.pdf",
+      "answerPdf": "docs/PDF/02-112學測英文選擇題答案.pdf",
+      "officialPrompt": "What does “it” in the last paragraph refer to?",
+      "officialOptions": [
+        "A. To certify elephant-friendly trenches and organizations.",
+        "B. To reward tea growers for protecting the environment.",
+        "C. To encourage consumers to choose high-quality brands.",
+        "D. To create a win-win situation for elephants and tea farms."
+      ],
+      "officialPdfAnswer": "D",
+      "canonicalBefore": "B",
+      "canonicalAfter": "D",
+      "rootCause": "ANSWER_SERIALIZATION_ERROR",
+      "optionOrderMismatch": 0,
+      "explanationConflictFound": 1,
+      "explanationConflictFixed": 1,
+      "passageId": "passage-7cb1c189",
+      "passageQuestionRefs": ["official-112-q35", "official-112-q42", "official-112-q45"],
+      "status": "RESOLVED"
+    }
+  ],
+  "answerComparisons": {
+    "year112": {"checked": 13, "matches": 13, "mismatches": 0},
+    "years111To115": {"checked": 68, "matches": 68, "mismatches": 0}
+  },
+  "runtimeChecks": {
+    "q42CanonicalAnswer": "D",
+    "q42ExamAnswer": "D",
+    "q42SelectD": "PASS",
+    "q42SelectB": "PASS",
+    "q42Reset": "PASS",
+    "q42PreSubmitAnswerLeak": 0
+  },
+  "modifiedFiles": ["docs/index.html"],
+  "auditFiles": [
+    "audit/ENGLISH_EXAM_OFFICIAL_ANSWER_CONFLICT_AUDIT.md",
+    "audit/ENGLISH_EXAM_OFFICIAL_ANSWER_CONFLICT_AUDIT.json",
+    "audit/ENGLISH_EXAM_OFFICIAL_SOURCE_COMPLETENESS_AUDIT.md",
+    "audit/ENGLISH_EXAM_OFFICIAL_SOURCE_COMPLETENESS_AUDIT.json"
+  ],
+  "gitCommit": "NOT RUN",
+  "push": "NOT RUN",
+  "officialAnswerConflict": "RESOLVED",
+  "sourceCompleteness": "PASS",
+  "examModeReleaseReady": "NO"
+}

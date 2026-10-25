@@ -1,0 +1,17 @@
+{
+  "result": "COMPOSITION_CANONICAL_BACKFILL_PASS",
+  "rootCause": "RECOVERY_NOT_BACKFILLED_TO_CANONICAL",
+  "canonicalBefore": {"compositionRecords": 2, "ids": ["source-composition-112", "source-composition-113"]},
+  "canonicalAfter": {"compositionRecords": 5, "ids": ["source-composition-111", "source-composition-112", "source-composition-113", "source-composition-114", "source-composition-115"]},
+  "records": {
+    "source-composition-111": {"year": 111, "officialPrompt": "SOURCE_BACKED_FROM_EXISTING_OFFICIAL_PDF_RECOVERY", "sourceView": "lesson-24-view-03", "sourceHtml": "EXISTING_SOURCE_CARD", "visualMapping": "EXISTING_OFFICIAL_PDF_COMPOSITION_VISUAL", "teachingMaterialGenerated": false},
+    "source-composition-112": {"year": 112, "status": "EXISTING_CANONICAL_RECORD_UNCHANGED", "teachingMaterialGenerated": false},
+    "source-composition-113": {"year": 113, "status": "EXISTING_CANONICAL_RECORD_UNCHANGED", "teachingMaterialGenerated": false},
+    "source-composition-114": {"year": 114, "officialPrompt": "SOURCE_BACKED_FROM_EXISTING_OFFICIAL_PDF_RECOVERY", "sourceView": "lesson-24-view-02", "sourceHtml": "EXISTING_SOURCE_CARD", "visualMapping": "EXISTING_OFFICIAL_PDF_COMPOSITION_VISUAL", "teachingMaterialGenerated": false},
+    "source-composition-115": {"year": 115, "officialPrompt": "SOURCE_BACKED_FROM_EXISTING_OFFICIAL_PDF_RECOVERY", "sourceView": "lesson-24-view-02", "sourceHtml": "EXISTING_SOURCE_CARD", "visualMapping": "EXISTING_OFFICIAL_PDF_COMPOSITION_VISUAL", "teachingMaterialGenerated": false}
+  },
+  "runtime": {"canonicalQuestionDataAfterReload": 5, "placeholderCount": 0, "preConfirmLeak": 0, "confirmControls": "5/5", "postConfirmPreAnalysisLeak": 0, "analysisReveal": "PASS_WHERE_SOURCE_HTML_EXISTS", "routeResetState": "PASS"},
+  "fullIndependentQA": "NOT_RUN_BY_THIS_ARTIFACT",
+  "gitCommit": "NOT_RUN",
+  "push": "NOT_RUN"
+}

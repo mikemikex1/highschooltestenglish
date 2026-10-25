@@ -1,0 +1,17 @@
+{
+  "result": "RECOVERED_AFFECTED_SHARED_MATERIAL_BUT_ANSWER_GATE_BLOCKED",
+  "officialUnique": 76,
+  "affectedRecords": 26,
+  "passageRecordsReconnected": 12,
+  "affectedChildrenWithPassageRefs": 26,
+  "duplicatedPassageRecords": 0,
+  "mappingMismatches": 0,
+  "sourceCandidates": ["docs/PDF/*.pdf", "canonicalPassageData"],
+  "recoveryPerformed": true,
+  "answerConflict": {
+    "questionId": "official-112-q42",
+    "officialPdfAnswer": "D",
+    "canonicalAnswer": "B",
+    "action": "STOP_NO_OVERWRITE"
+  }
+}

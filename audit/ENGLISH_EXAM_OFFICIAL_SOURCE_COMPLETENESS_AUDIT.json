@@ -1,0 +1,48 @@
+{
+  "result": "SOURCE_COMPLETENESS_PASS",
+  "sourceCompleteness": "PASS",
+  "officialUnique": 76,
+  "completeSourceFields": 76,
+  "incompleteSourceFields": 0,
+  "releaseCompleteRecords": 76,
+  "releaseIncompleteRecords": 0,
+  "placeholderRecords": 0,
+  "questionStemMissing": 0,
+  "requiredOptionsMissing": 0,
+  "sharedMaterialMissing": 0,
+  "imageTableMissing": 0,
+  "officialAnswerMismatch": 0,
+  "questionGroupMapping": "PASS",
+  "questionGroupsRecovered": 12,
+  "childRecordsConnected": "26/26",
+  "groupMappingMismatches": 0,
+  "translationPromptsComplete": "5/5",
+  "compositionPromptsComplete": "5/5",
+  "answerComparisons": {
+    "year112": {"checked": 13, "matches": 13, "mismatches": 0},
+    "years111To115": {"checked": 68, "matches": 68, "mismatches": 0}
+  },
+  "q31": {
+    "officialAnswer": "C",
+    "canonicalAnswer": "C",
+    "historicalCanonicalBefore": "D",
+    "rootCause": "ANSWER_SERIALIZATION_ERROR"
+  },
+  "q42": {
+    "officialAnswer": "D",
+    "canonicalAnswerBefore": "B",
+    "canonicalAnswerAfter": "D",
+    "rootCause": "ANSWER_SERIALIZATION_ERROR",
+    "promptComplete": true,
+    "optionsComplete": true,
+    "optionOrderMismatch": 0,
+    "passageId": "passage-7cb1c189",
+    "passageMapping": "PASS"
+  },
+  "historicalSerializedCount": 632,
+  "historicalSerializedCountClassification": "HISTORICAL_UNSTABLE_SERIALIZED_COUNT",
+  "modifiedRuntimeFiles": ["docs/index.html"],
+  "gitCommit": "NOT RUN",
+  "push": "NOT RUN",
+  "examModeReleaseReady": "NO"
+}

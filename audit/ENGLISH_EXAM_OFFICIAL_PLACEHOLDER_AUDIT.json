@@ -1,0 +1,16 @@
+{
+  "result": "RECOVERED_SOURCE_FIELDS_BUT_ANSWER_GATE_BLOCKED",
+  "placeholderBefore": 9,
+  "placeholderAfter": 0,
+  "stemMissingBefore": 10,
+  "stemMissingAfter": 0,
+  "optionsMissingBefore": 4,
+  "optionsMissingAfter": 0,
+  "recoveredRecords": 26,
+  "remainingAnswerConflict": {
+    "questionId": "official-112-q42",
+    "officialPdfAnswer": "D",
+    "canonicalAnswer": "B",
+    "action": "STOP_NO_OVERWRITE"
+  }
+}

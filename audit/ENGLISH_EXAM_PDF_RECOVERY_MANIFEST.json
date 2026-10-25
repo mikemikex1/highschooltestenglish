@@ -1,0 +1,19 @@
+{
+  "authority": "repository official PDFs and existing canonical passage records",
+  "status": "RECOVERY_APPLIED_ANSWER_GATE_BLOCKED",
+  "recordsRecovered": 26,
+  "passageRecordsReconnected": 12,
+  "questionGroupMappingMismatches": 0,
+  "answerConflict": {
+    "questionId": "official-112-q42",
+    "officialPdfAnswer": "D",
+    "canonicalAnswer": "B",
+    "action": "STOP_NO_OVERWRITE"
+  },
+  "q31": {
+    "questionId": "official-115-q31",
+    "officialPdfAnswer": "C",
+    "canonicalAnswer": "C",
+    "status": "RESOLVED_DATA_LEVEL"
+  }
+}

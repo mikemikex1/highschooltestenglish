@@ -729,7 +729,38 @@ body.lesson-page .choice-text { flex: 1 1 auto; }
   var value;
   Object.defineProperty(window, 'canonicalLessonData', { configurable: true, get: function () { return value; }, set: function (next) { value = install(next); Object.defineProperty(window, 'canonicalLessonData', { configurable: true, writable: true, value: value }); } });
 })();
-</script></head>
+</script>
+<style id="english-exam-mode-styles">
+  body.exam-mode-active .lesson-sidebar, body.exam-mode-active .mobile-course-nav, body.exam-mode-active [aria-label="中文輔助模式"] { display:none; }
+  body.exam-mode-active .lesson-main { width:100%; max-width:1180px; margin:0 auto; }
+  .exam-mode-root { max-width:1180px; margin:0 auto; padding:1rem 0 4rem; }
+  .exam-top-nav { display:flex; gap:.55rem; flex-wrap:wrap; margin:0 auto 1rem; max-width:1180px; padding:0 1rem; }
+  .exam-top-nav a, .exam-year-nav a, .exam-section-nav a, .exam-question-nav a { text-decoration:none; }
+  .exam-top-nav a { padding:.65rem .9rem; border-radius:999px; background:#fff8e8; color:#573f2b; border:1px solid #e9d9b9; font-weight:700; }
+  .exam-top-nav a[aria-current="page"] { background:#6e4c37; color:#fffdf7; }
+  .exam-hero, .exam-card, .exam-question-card, .exam-passage { background:#fffdf7; border:1px solid #eadfc9; border-radius:18px; box-shadow:0 8px 24px rgba(96,65,35,.08); }
+  .exam-hero { padding:1.3rem; margin-bottom:1rem; }
+  .exam-hero h2, .exam-card h3, .exam-question-card h3 { margin-top:0; }
+  .exam-year-nav, .exam-section-nav, .exam-question-nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:.8rem 0; }
+  .exam-year-nav a, .exam-section-nav a, .exam-question-nav a, .exam-button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:.55rem .8rem; border:1px solid #dcc9a9; border-radius:12px; background:#fff8e8; color:#573f2b; font-weight:700; cursor:pointer; }
+  .exam-year-nav a[aria-current="page"], .exam-section-nav a[aria-current="page"], .exam-question-nav a[aria-current="page"] { background:#6e4c37; color:#fffdf7; }
+  .exam-card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
+  .exam-card { padding:1rem; }
+  .exam-card p { margin:.4rem 0; }
+  .exam-question-card { padding:1.25rem; margin-top:1rem; }
+  .exam-passage { padding:1rem; margin:1rem 0; line-height:1.8; overflow-wrap:anywhere; }
+  .exam-passage pre { white-space:pre-wrap; font:inherit; margin:0; }
+  .exam-option { display:flex; align-items:flex-start; gap:.65rem; min-height:44px; padding:.7rem; margin:.5rem 0; border:1px solid #e5d9c2; border-radius:12px; background:#fffaf0; cursor:pointer; }
+  .exam-option input { margin-top:.35rem; }
+  .exam-option.is-correct { border-color:#4f9b68; background:#e8f6eb; }
+  .exam-option.is-wrong { border-color:#cf665c; background:#fff0ee; }
+  .exam-option.is-neutral { opacity:.78; }
+  .exam-feedback, .exam-explanation { margin-top:1rem; padding:1rem; border-radius:12px; background:#f8f1e3; }
+  .exam-actions { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1rem; }
+  .exam-muted { color:#756653; }
+  .exam-status { font-weight:700; }
+  @media (max-width:640px) { .exam-mode-root { padding:.6rem 0 3rem; } .exam-top-nav { padding:0 .6rem; } .exam-question-card, .exam-hero { padding:1rem; } .exam-card-grid { grid-template-columns:1fr; } }
+</style></head>
 <body class="lesson-page" id="offline-top">
 <header class="site-header"><div class="wrap"><p class="eyebrow">學測英文課綱完整教學</p><h1>學測英文 24 堂課綱詳細教學｜手機離線完整版</h1><p class="subtitle">24 課正文已預先渲染；可直接雙擊開啟，不需要伺服器或 JavaScript。</p></div></header>
 <main class="wrap">
@@ -743,8 +774,9 @@ body.lesson-page .choice-text { flex: 1 1 auto; }
       <label for="mobile-course-select">☰ 課程選單</label>
       <select id="mobile-course-select" class="mobile-course-select" aria-label="選擇課程"><option value="01">第01課｜五年命題地圖與診斷</option><option value="02">第02課｜詞彙 I：名詞、動詞與搭配</option><option value="03">第03課｜詞彙 II：形容詞、副詞、近義干擾</option><option value="04">第04課｜詞族、多義、Word Family 與字形</option><option value="05">第05課｜時態與時間軸</option><option value="06">第06課｜主被動、分詞、關係詞與長句</option><option value="07">第07課｜連接詞、固定搭配與篇章邏輯</option><option value="08">第08課｜文意選填：詞性預測</option><option value="09">第09課｜文意選填：搭配與篇章語意</option><option value="10">第10課｜篇章結構：指涉與銜接</option><option value="11">第11課｜篇章結構：段落功能與邏輯</option><option value="12">第12課｜長句拆解與閱讀速度</option><option value="13">第13課｜閱讀：主旨、標題與全文架構</option><option value="14">第14課｜閱讀：細節定位與證據</option><option value="15">第15課｜閱讀：推論</option><option value="16">第16課｜閱讀：字義與指涉</option><option value="17">第17課｜閱讀：作者目的與段落功能</option><option value="18">第18課｜閱讀：圖表、地圖與時間線</option><option value="19">第19課｜混合題：摘要填空與字形轉換</option><option value="20">第20課｜混合題：多文本整合、簡答與多選</option><option value="21">第21課｜中譯英 I：切塊、SVO、時態與低風險答案</option><option value="22">第22課｜中譯英 II：五年題型、句型與扣分控制</option><option value="23">第23課｜作文 I：審題、Brainstorm、Outline 與內容組織</option><option value="24">第24課｜作文 II：五年完整範例、修改與模考策略</option></select>
     </div>
-    <div id="lesson-view-root" class="lesson-content-stack" aria-live="polite"></div>
+<div id="lesson-view-root" class="lesson-content-stack" aria-live="polite"></div>
 <div id="supplement-view-root" class="supplement-root" hidden aria-live="polite"></div>
+<div id="exam-view-root" class="exam-mode-root" hidden aria-live="polite"></div>
 <noscript><p class="supplement-noscript">補充資料需要 JavaScript 才能使用搜尋、篩選與分頁。</p></noscript>
 <noscript><div class="offline-readable-fallback"><p>JavaScript 已停用；以下顯示 24 課全文。</p><section id="lesson-01" class="offline-lesson"><div class="offline-lesson-head"><span>第 01 課</span><a href="#offline-top">回到課程索引 ↑</a></div>
 <div class="full-lesson"><nav class="lesson-tabs" aria-label="課內分頁導覽"></nav><div class="lesson-page" data-label="基礎">
@@ -5608,6 +5640,12 @@ window.initializeInteractiveContent = function (root) {
   var quizRemediationAnswerMap = {"lesson-1-quiz-08":{"expectedAnswer":"概念定義 → 句中判斷 → 對比排除 → 歷屆題證據 → 自編練習 → SOP。","answerKey":"概念定義 → 句中判斷 → 對比排除 → 歷屆題證據 → 自編練習 → SOP。","sourceTeachingBlock":"Lesson 01 view 03: 本課固定學習順序","sourceConcept":"診斷與解題流程","answerSource":"existing Lesson 01 teaching text"},"lesson-3-quiz-01":{"expectedAnswer":"名詞或補語。","answerKey":"名詞或補語。","sourceTeachingBlock":"Lesson 03 view 01/02: 形容詞通常修飾什麼？","sourceConcept":"形容詞位置與修飾對象","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-02":{"expectedAnswer":"動詞、形容詞、副詞或整句。","answerKey":"動詞、形容詞、副詞或整句。","sourceTeachingBlock":"Lesson 03 view 01/02: 副詞可以修飾哪些成分？","sourceConcept":"副詞功能與句中位置","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-03":{"expectedAnswer":"搭配、語氣、主詞限制與使用情境。","answerKey":"搭配、語氣、主詞限制與使用情境。","sourceTeachingBlock":"Lesson 03 view 01/02: 近義字不能只靠中文判斷，還要比較哪些面向？","sourceConcept":"近義字語境判斷","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-04":{"expectedAnswer":"行程很滿。","answerKey":"行程很滿。","sourceTeachingBlock":"Lesson 03 view 01/02: a tight schedule 中 tight 表示什麼意思？","sourceConcept":"tight 的搭配與語意","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-05":{"expectedAnswer":"嚴重的。","answerKey":"嚴重的。","sourceTeachingBlock":"Lesson 03 view 01/02: grave concern 中 grave 表示什麼語氣？","sourceConcept":"grave 的搭配與語氣","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-06":{"expectedAnswer":"在一開始。","answerKey":"在一開始。","sourceTeachingBlock":"Lesson 03 view 01/02: initially 表示什麼時間？","sourceConcept":"副詞時間語意","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-07":{"expectedAnswer":"先辨認題型與題目要求，再找詞性／句法功能的硬線索。","answerKey":"先辨認題型與題目要求，再找詞性／句法功能的硬線索。","sourceTeachingBlock":"Lesson 03 view 01/02: 詞彙題考場第一步要先判斷什麼？","sourceConcept":"詞彙題判斷順序","answerSource":"existing Lesson 03 teaching text"},"lesson-3-quiz-08":{"expectedAnswer":"先排除句法不成立，再比較搭配、語意與上下文。","answerKey":"先排除句法不成立，再比較搭配、語意與上下文。","sourceTeachingBlock":"Lesson 03 view 01/02: 若兩個選項中文都合理，應如何排除？","sourceConcept":"近義字排除 SOP","answerSource":"existing Lesson 03 teaching text"}};
   questions.forEach(function (q) { var m = quizRemediationAnswerMap[q.id]; if (m) { q.expectedAnswer = m.expectedAnswer; q.answerKey = m.answerKey; q.sourceTeachingBlock = m.sourceTeachingBlock; q.sourceConcept = m.sourceConcept; q.answerSource = m.answerSource; } });
   window.canonicalQuestionData = questions;
+  /* Official answer authority correction: 115 Q31 is C in the official answer PDF.
+     The parser previously captured a D from generated option-analysis text. */
+  (function reconcileOfficial115Q31Answer() {
+    var q31 = questions.filter(function (q) { return q.id === 'official-115-q31'; })[0];
+    if (q31) q31.correctValues = ['C'];
+  })();
   /* Phase 3 remediation: retain existing source-backed translation/composition
      groups that were present in the lesson source but omitted from the
      canonical question inventory.  These are non-interactive teaching cards;
@@ -5617,7 +5655,10 @@ window.initializeInteractiveContent = function (root) {
       { id: 'source-translation-112', instanceId: 'source-translation-112@lesson-21-view-03', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-21', lessonRefs: ['lesson-21','lesson-22'], viewId: 'lesson-21-view-03', viewRefs: ['lesson-21-view-03','lesson-22-view-03'], year: 112, questionNumber: null, prompt: '112 官方原題 1、2\n1. 中文：歷史一再證明，戰爭會造成極為可怕的災難。\n2. 中文：避免衝突、確保世界和平應該是所有人類追求的目標。', options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: '查看參考答案與解析。切塊／S/V/O：S + V + not A but B / While + V-ing, S + V。時態／target chunks：依官方語意保留；檢查主詞動詞、冠詞、介系詞與拼字。安全版：History has proven time and again that wars cause extremely terrible disasters。自然版：History has proven time and again that wars cause extremely terrible disasters。安全版：Avoiding conflicts and ensuring world peace should be the goal pursued by all human beings。自然版：Avoiding conflicts and ensuring world peace should be the goal pursued by all human beings。常見錯誤／扣分點：漏核心意群、時態／單複數／介系詞／拼字錯誤。', passageRefs: [], sourceRefs: ['lesson-21-view-03#112-official-original-1-2','lesson-22-view-03#112-official-original-1-2'], textHash: 'source-translation-112' },
       { id: 'source-translation-113', instanceId: 'source-translation-113@lesson-21-view-03', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-21', lessonRefs: ['lesson-21','lesson-22'], viewId: 'lesson-21-view-03', viewRefs: ['lesson-21-view-03','lesson-22-view-03'], year: 113, questionNumber: null, prompt: '113 官方原題 1、2\n1. 中文：每逢選舉季節，總會看到政治人物造訪各地著名廟宇。\n2. 中文：除了祈求好的選舉結果，他們也希望展現對在地文化與習俗的尊重。', options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: '查看參考答案與解析。切塊／S/V/O：S + V + not A but B / While + V-ing, S + V。時態／target chunks：依官方語意保留；檢查主詞動詞、冠詞、介系詞與拼字。安全版：Every election season, politicians can be seen visiting famous temples in different areas。自然版：Every election season, politicians can be seen visiting famous temples in different areas。安全版：Besides praying for good election results, they also hope to show respect for local culture and customs。自然版：Besides praying for good election results, they also hope to show respect for local culture and customs。常見錯誤／扣分點：漏核心意群、時態／單複數／介系詞／拼字錯誤。', passageRefs: [], sourceRefs: ['lesson-21-view-03#113-official-original-1-2','lesson-22-view-03#113-official-original-1-2'], textHash: 'source-translation-113' },
       { id: 'source-composition-112', instanceId: 'source-composition-112@lesson-23-view-03', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-23', lessonRefs: ['lesson-23','lesson-24'], viewId: 'lesson-23-view-03', viewRefs: ['lesson-23-view-03','lesson-24-view-03'], year: 112, questionNumber: null, prompt: '112｜Emoji｜word count: 154', options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: 'Brainstorm：task、specific details、reason、effect、example、responsibility。Outline：P1 完成官方圖片／現象；P2 完成官方要求的理由、影響、經驗或分工。People like emojis because they express emotions quickly and add tone to short messages. A smiling face can make a sentence warmer, while a crying face can show sadness. Emojis are useful online because readers cannot hear the writer’s voice. However, one symbol may have different meanings. I once sent an emoji that I thought was funny, but my friend thought I was laughing at her problem. To solve this problem, people should consider context and explain their meaning with words when necessary. This experience taught me that digital communication needs patience. A sender should not assume that a receiver shares the same cultural background or sense of humor. Asking a simple follow-up question is often better than arguing about a symbol. In this way, technology can support relationships and reduce unnecessary conflict. P1/P2 解析：P1 與 P2 分別完成題目動詞，不把任務只留在 outline。', passageRefs: [], sourceRefs: ['lesson-23-view-03#112-emoji','lesson-24-view-03#112-emoji'], textHash: 'source-composition-112' },
-      { id: 'source-composition-113', instanceId: 'source-composition-113@lesson-23-view-03', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-23', lessonRefs: ['lesson-23','lesson-24'], viewId: 'lesson-23-view-03', viewRefs: ['lesson-23-view-03','lesson-24-view-03'], year: 113, questionNumber: null, prompt: '113｜青少年問題＋機器人｜word count: 167', options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: 'Brainstorm：task、specific details、reason、effect、example、responsibility。Outline：P1 完成官方圖片／現象；P2 完成官方要求的理由、影響、經驗或分工。Among the problems shown, I would choose academic pressure. Tests, assignments, and activities often arrive together, so teenagers may stay up late and feel anxious. This pressure can also reduce their interest in learning and family time. My robot assistant would divide large tasks into smaller steps, remind me of deadlines, and suggest a realistic schedule. I would make decisions and study, while the robot handled routine planning. It should also notice exhaustion and suggest asking a teacher or parent for help. Robots can organize information, but human empathy and judgment remain necessary. The robot should protect my privacy and allow me to change its suggestions. It must not make me feel guilty when I need a break. A helpful machine is a tool, not a replacement for friends, teachers, or parents. With this division of labor, I could become more independent without losing human support. P1/P2 解析：P1 與 P2 分別完成題目動詞，不把任務只留在 outline。', passageRefs: [], sourceRefs: ['lesson-23-view-03#113-teen-problems-robot','lesson-24-view-03#113-teen-problems-robot'], textHash: 'source-composition-113' }
+      { id: 'source-composition-113', instanceId: 'source-composition-113@lesson-23-view-03', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-23', lessonRefs: ['lesson-23','lesson-24'], viewId: 'lesson-23-view-03', viewRefs: ['lesson-23-view-03','lesson-24-view-03'], year: 113, questionNumber: null, prompt: '113｜青少年問題＋機器人｜word count: 167', options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: 'Brainstorm：task、specific details、reason、effect、example、responsibility。Outline：P1 完成官方圖片／現象；P2 完成官方要求的理由、影響、經驗或分工。Among the problems shown, I would choose academic pressure. Tests, assignments, and activities often arrive together, so teenagers may stay up late and feel anxious. This pressure can also reduce their interest in learning and family time. My robot assistant would divide large tasks into smaller steps, remind me of deadlines, and suggest a realistic schedule. I would make decisions and study, while the robot handled routine planning. It should also notice exhaustion and suggest asking a teacher or parent for help. Robots can organize information, but human empathy and judgment remain necessary. The robot should protect my privacy and allow me to change its suggestions. It must not make me feel guilty when I need a break. A helpful machine is a tool, not a replacement for friends, teachers, or parents. With this division of labor, I could become more independent without losing human support. P1/P2 解析：P1 與 P2 分別完成題目動詞，不把任務只留在 outline。', passageRefs: [], sourceRefs: ['lesson-23-view-03#113-teen-problems-robot','lesson-24-view-03#113-teen-problems-robot'], textHash: 'source-composition-113' },
+      { id: 'source-composition-111', instanceId: 'source-composition-111@lesson-24-view-03', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-24', lessonRefs: ['lesson-23','lesson-24'], viewId: 'lesson-24-view-03', viewRefs: ['lesson-24-view-03'], year: 111, questionNumber: null, prompt: '不同的公園，可能樣貌不同，特色也不同。請以此為主題，並依據下列兩張圖片的內容，寫一篇英文作文，文分兩段。第一段描述圖 A 和圖 B 中的公園各有何特色，第二段則說明你心目中理想公園的樣貌與特色，並解釋你的理由。', officialPrompt: '不同的公園，可能樣貌不同，特色也不同。請以此為主題，並依據下列兩張圖片的內容，寫一篇英文作文，文分兩段。第一段描述圖 A 和圖 B 中的公園各有何特色，第二段則說明你心目中理想公園的樣貌與特色，並解釋你的理由。', writingInstruction: '依提示寫一篇英文作文', wordRequirement: 120, options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: '', passageRefs: [], sourceRefs: ['PDF/02-111學測英文試卷.pdf#composition', 'lesson-24-view-03#111-park'], visualSourceRefs: ['PDF/02-111學測英文試卷.pdf#composition-visual'], sourceLessonId: 'lesson-24', sourceViewId: 'lesson-24-view-03', textHash: 'source-composition-111' },
+      { id: 'source-composition-114', instanceId: 'source-composition-114@lesson-24-view-02', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-24', lessonRefs: ['lesson-23','lesson-24'], viewId: 'lesson-24-view-02', viewRefs: ['lesson-24-view-02'], year: 114, questionNumber: null, prompt: '每逢颱風逼近臺灣，各縣市政府會依氣象預報的內容而決定隔日是否停止上班上課。請針對這個議題寫一篇英文作文，文分兩段。第一段根據下方對比圖片，描述颱風假時，實際上可能出現的兩種不同情景；第二段說明你對放颱風假的看法與經驗。', officialPrompt: '每逢颱風逼近臺灣，各縣市政府會依氣象預報的內容而決定隔日是否停止上班上課。請針對這個議題寫一篇英文作文，文分兩段。第一段根據下方對比圖片，描述颱風假時，實際上可能出現的兩種不同情景；第二段說明你對放颱風假的看法與經驗。', writingInstruction: '依提示寫一篇英文作文', wordRequirement: 120, options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: '', passageRefs: [], sourceRefs: ['PDF/02-114學測英文試題.pdf#composition', 'lesson-24-view-02#114-typhoon-day'], visualSourceRefs: ['PDF/02-114學測英文試題.pdf#composition-visual'], sourceLessonId: 'lesson-24', sourceViewId: 'lesson-24-view-02', textHash: 'source-composition-114' },
+      { id: 'source-composition-115', instanceId: 'source-composition-115@lesson-24-view-02', sourceType: 'selfCreated', questionType: 'nonInteractive', lessonId: 'lesson-24', lessonRefs: ['lesson-23','lesson-24'], viewId: 'lesson-24-view-02', viewRefs: ['lesson-24-view-02'], year: 115, questionNumber: null, prompt: '近年來養寵物的風氣在臺灣日漸普遍，而寵物在人們生活中的角色也與過去不同。請以此為主題，並參照下列圖片，寫一篇英文作文，文分兩段。第一段描述這些圖片中所呈現的現象；第二段則根據你自身的經驗或觀察，說明此現象的原因以及可能的影響。', officialPrompt: '近年來養寵物的風氣在臺灣日漸普遍，而寵物在人們生活中的角色也與過去不同。請以此為主題，並參照下列圖片，寫一篇英文作文，文分兩段。第一段描述這些圖片中所呈現的現象；第二段則根據你自身的經驗或觀察，說明此現象的原因以及可能的影響。', writingInstruction: '依提示寫一篇英文作文', wordRequirement: 120, options: [], correctValues: [], coreExplanation: '', optionAnalysis: [], fullExplanation: '', passageRefs: [], sourceRefs: ['PDF/02-115學測英文試卷.pdf#composition', 'lesson-24-view-02#115-pets'], visualSourceRefs: ['PDF/02-115學測英文試卷.pdf#composition-visual'], sourceLessonId: 'lesson-24', sourceViewId: 'lesson-24-view-02', textHash: 'source-composition-115' }
     ];
     var sourceCard = function (lessonId, viewId, year, isTranslation) {
       var lesson = lessons.filter(function (item) { return item.id === lessonId; })[0];
@@ -5629,14 +5670,16 @@ window.initializeInteractiveContent = function (root) {
     };
     recovered.forEach(function (record) {
       var isTranslation = record.id.indexOf('translation') >= 0;
-      var card = sourceCard(isTranslation ? 'lesson-21' : 'lesson-23', isTranslation ? 'lesson-21-view-03' : 'lesson-23-view-03', record.year, isTranslation);
+      var sourceLessonId = isTranslation ? 'lesson-21' : (record.sourceLessonId || 'lesson-23');
+      var sourceViewId = isTranslation ? 'lesson-21-view-03' : (record.sourceViewId || 'lesson-23-view-03');
+      var card = sourceCard(sourceLessonId, sourceViewId, record.year, isTranslation);
       if (card) {
         record.sourceHtml = card.outerHTML;
         record.fullExplanation = card.textContent.replace(/\\s+/g, ' ').trim();
         if (isTranslation) {
           record.prompt = Array.prototype.map.call(card.querySelectorAll('.translation-item > p:first-child'), function (node) { return node.textContent.trim(); }).join('\\n');
         } else {
-          var heading = card.querySelector('h4'); record.prompt = heading ? heading.textContent.trim() : record.prompt;
+          var heading = card.querySelector('h4'); record.prompt = record.officialPrompt || (heading ? heading.textContent.trim() : record.prompt);
         }
       }
       if (!questions.some(function (q) { return q.id === record.id; })) questions.push(record);
@@ -5648,6 +5691,70 @@ window.initializeInteractiveContent = function (root) {
     window.canonicalQuestionData = questions;
   }());
   window.canonicalPassageData = passages;
+  /* Official PDF source recovery.  These values are copied from the existing
+     official question PDFs and only repair parser/source mapping drift. */
+  (function recoverOfficialPdfSourceData() {
+    var byId = Object.create(null);
+    (window.canonicalQuestionData || []).forEach(function (q) { byId[q.id] = q; });
+    var passageByYear = {
+      '111': 'passage-befedd11', '112': 'passage-7cb1c189',
+      '114': 'passage-1e2ddecd',
+      '115': 'passage-4000fa18'
+    };
+    var mixedPassageByYear = {
+      '111': 'passage-92d08976', '112': 'passage-994778ac',
+      '113': 'passage-217dcee6', '114': 'passage-b2d1b75b',
+      '115': 'passage-26946798'
+    };
+    window.__officialPdfRecovery = {
+      'official-111-q41': { prompt: 'According to the passage, which of the following statements is true about the hard hat?', options: ['A. Global sales have doubled every ten years.', 'B. The inspiration came from the inventor’s wartime experience.', 'C. It was standard equipment for construction workers in the 1920s.', 'D. Different colors are used in different industries to signal the roles of people on site.'], answer: ['B'], passage: 'passage-befedd11' },
+      'official-111-q43': { prompt: 'What can we learn about zebrafish from the passage?', options: ['A. How they should be studied in labs.', 'B. Where they derive their regenerative ability.', 'C. Why they share humans’ genetic code.', 'D. What they may offer in medical advancements.'], answer: ['D'], passage: 'passage-befedd11' },
+      'official-111-q47': { prompt: '請根據選文內容，從兩則故事中各選出一個單詞（word），分別填入下列兩句的空格，並視語法需要作適當的字形變化，使句子語意完整、語法正確，且符合全文文意。', passage: 'passage-92d08976' },
+      'official-111-q48': { prompt: 'Which word in Popole Misenga’s story means “protection given by a country or embassy to refugees from another country”?', passage: 'passage-92d08976' },
+      'official-111-q49': { prompt: '請從下列(A)到(F)中，選出對Yusra Mardini 和 Popole Misenga都正確的選項。（多選題，4分）', options: ['A. Being an Olympic medalist.', 'B. Growing up in an orphanage.', 'C. Joining the Olympic Games more than once.', 'D. Leaving his/her hometown because of war.', 'E. Showing talent in sports after going to a foreign country.', 'F. Traveling through several countries before securing protection.'], answer: ['C', 'D'] , passage: 'passage-92d08976' },
+      'official-112-q35': { prompt: 'What question does the passage answer?', options: ['A. How was the word “hula-hooping” derived?', 'B. Why did Wham-O start making hula hoops?', 'C. Where did Hawaiian hula dancing come from?', 'D. What was the favorite toy of ancient Egyptian kids?'], answer: ['A'], passage: 'passage-7cb1c189' },
+      'official-112-q42': { prompt: 'What does “it” in the last paragraph refer to?', options: ['A. To certify elephant-friendly trenches and organizations.', 'B. To reward tea growers for protecting the environment.', 'C. To encourage consumers to choose high-quality brands.', 'D. To create a win-win situation for elephants and tea farms.'], answer: ['D'], passage: 'passage-7cb1c189', optionAnalysis: [] },
+      'official-112-q45': { prompt: 'Which of the following can be inferred from the passage about Zanzibar?', options: ['A. For centuries, Zanzibar has been a heaven for beach lovers.', 'B. Cloves, vanilla, and cinnamon are common spices in Zanzibar.', 'C. Besides spices, Zanzibar is well known for a great variety of jewelry.', 'D. Vasco da Gama was Zanzibar’s first foreign ruler during the Age of Exploration.'], answer: ['B'], passage: 'passage-7cb1c189' },
+      'official-112-q47': { prompt: '請從文章中找出最適當的單詞（word）填入下列句子空格中，並視語法需要做適當的字形變化。每格限填一個單詞（word）。', passage: 'passage-994778ac' },
+      'official-113-q47': { prompt: '下列簡短敘述摘記上方文章重點。請從文章中找出最適當的單詞（word）填入下列句子空格中，並視語法需要做適當的字形變化，使句子語意完整、語法正確，並符合全文文意。', passage: 'passage-217dcee6' },
+      'official-114-q39': { prompt: 'What field of study does the research mentioned in the passage most likely belong to?', options: ['A. Psychology.', 'B. Education.', 'C. Philosophy.', 'D. Communication.'], answer: ['A'], passage: 'passage-1e2ddecd' },
+      'official-114-q42': { prompt: 'How does the author develop the ideas in this passage?', options: ['A. By defining and illustrating a concept.', 'B. By showing opposing views of an issue.', 'C. By presenting cause and effect of a problem.', 'D. By providing steps for settling a disagreement.'], answer: ['B'], passage: 'passage-1e2ddecd' },
+      'official-114-q47': { prompt: '請根據選文內容，從文章中選出兩個單詞，分別填入下列句子空格，並視句型結構需要作適當的字形變化，使句子語意完整、語法正確，且符合全文文意。', passage: 'passage-b2d1b75b' },
+      'official-115-q11': { prompt: 'White rhinoceroses, ______, do the same thing—only their choice of meeting place is a giant pile of poop.', options: ['A. what is more', 'B. it turns out', 'C. in other words', 'D. all in all'], answer: ['B'], passage: 'passage-86ee9979' },
+      'official-115-q17': { prompt: 'But the culinary art of dim sum ______, for it was considered inappropriate to pair tea with food.', options: ['A. would hardly develop', 'B. had yet to develop', 'C. was fast developing', 'D. had almost developed'], answer: ['B'], passage: 'passage-86ee9979' },
+      'official-115-q18': { prompt: 'Dim sum is more than just an example of Chinese cuisine. It is ______ an enjoyable dining experience that can span hours.', options: ['A. passed on to', 'B. brought up as', 'C. thought to have', 'D. meant to be'], answer: ['D'], passage: 'passage-86ee9979' },
+      'official-115-q19': { prompt: 'The small portions were designed to merely “touch the heart,” as the name literally means, and ______ were first enjoyed as snacks.', options: ['A. if so', 'B. as such', 'C. by then', 'D. in that'], answer: ['B'], passage: 'passage-86ee9979' },
+      'official-115-q21': { prompt: 'Taking a nap in the middle of the day is by no means ______. In fact, you are giving your brain and your body some time to recharge and turn up refreshed.', options: ['A. retain', 'B. depend on', 'C. atmosphere', 'D. delay', 'E. unproductive', 'F. risk', 'G. function', 'H. minimal', 'I. dramatic', 'J. point to'], answer: ['E'], passage: 'passage-5c172823' },
+      'official-115-q31': { prompt: 'Smiling is a gesture that many people engage in dozens of times a day without thought. Most people believe that smiling is an expression of good feelings, a simple way to show happiness and friendliness. But does this hold true across time and cultures?', options: ['A. Another crucial factor is a society’s immigration diversity.', 'B. Various factors have thus contributed to the phenomenon of smiling.', 'C. For most of recorded human history, the open smile has been deeply unfashionable.', 'D. A genuine smile indicates contentment, while a forced smile suggests underlying distress.', 'E. In fact, there is a well-known Russian proverb that goes, “Smiling with no reason is a sign of stupidity.”'], answer: ['C'], passage: 'passage-d996b900' },
+      'official-115-q35': { prompt: 'What is this passage mainly about?', options: ['A. A renowned Antarctic explorer.', 'B. The extreme weather in Antarctica.', 'C. A challenging voyage to Antarctica.', 'D. The amazing discovery of a sunken ship.'], answer: ['C'], passage: 'passage-4000fa18' },
+      'official-115-q37': { prompt: 'According to the passage, which of the following is true about Shackleton and his Antarctic expedition?', options: ['A. His journey lasted more than two years.', 'B. He was the first man to cross over the Antarctic.', 'C. His team camped out on Elephant Island for five months.', 'D. He sent five crew members on a lifeboat to get help from a whaling station.'], answer: ['A'], passage: 'passage-4000fa18' },
+      'official-115-q38': { prompt: 'Which of the following shows the correct route of the Endurance after leaving South Georgia?', options: ['A', 'B', 'C', 'D'], answer: ['C'], passage: 'passage-4000fa18' },
+      'official-115-q42': { prompt: 'Which of the following statements can be inferred about spiral staircases in the Medieval Ages?', options: ['A. The staircase was too narrow to allow any quick retreat.', 'B. The clockwise design favored right-handed castle defenders.', 'C. The uneven steps made it easier to ascend than descend the stairs.', 'D. The staircase was dark enough for defenders to hide from attackers.'], answer: ['B'], passage: 'passage-4000fa18' },
+      'official-115-q43': { prompt: 'What is the passage mainly about?', options: ['A. Why east is referred to as the “Orient.”', 'B. How maps differ from GPS in function.', 'C. How map orientation evolved over time.', 'D. Why maps were important during the age of exploration.'], answer: ['C'], passage: 'passage-4000fa18' },
+      'official-115-q47': { prompt: '47-48 下列簡短敘述摘記上方文章重點。請從文章中找出兩個單詞，分別填入下列句子空格中，並視句型結構需要做適當的字形變化，使句子語意完整、語法正確，並符合全文文意。', passage: 'passage-26946798' },
+      'official-115-q50': { prompt: 'Which phrase is used by Joseph Tang to describe the “uniqueness” of the stores in Wonder Village?', passage: 'passage-26946798' }
+    };
+    var recovery = window.__officialPdfRecovery;
+    Object.keys(recovery).forEach(function (id) {
+      var q = byId[id], r = recovery[id];
+      if (!q) return;
+      if (r.prompt) q.prompt = r.prompt;
+      if (r.options) q.options = r.options.map(function (option) { return String(option).replace(/^[A-J]\.\s*/, ''); });
+      if (r.answer) q.correctValues = r.answer.slice();
+      if (r.passage) q.passageRefs = [r.passage];
+      q.sourceRefs = Array.from(new Set((q.sourceRefs || []).concat(['official-pdf-' + id.replace(/^official-/, '')])));
+    });
+    Object.keys(passageByYear).forEach(function (year) {
+      var pid = passageByYear[year], p = (window.canonicalPassageData || []).filter(function (x) { return x.id === pid; })[0];
+      if (!p) return;
+      p.questionRefs = Array.from(new Set((p.questionRefs || []).concat((window.canonicalQuestionData || []).filter(function (q) { return q.sourceType === 'official' && q.id.indexOf('official-' + year + '-') === 0 && q.questionNumber >= 35 && q.questionNumber <= 46; }).map(function (q) { return q.id; }))));
+    });
+    Object.keys(mixedPassageByYear).forEach(function (year) {
+      var pid = mixedPassageByYear[year], p = (window.canonicalPassageData || []).filter(function (x) { return x.id === pid; })[0];
+      if (!p) return;
+      p.questionRefs = Array.from(new Set((p.questionRefs || []).concat((window.canonicalQuestionData || []).filter(function (q) { return q.sourceType === 'official' && q.id.indexOf('official-' + year + '-') === 0 && q.questionNumber >= 47 && q.questionNumber <= 50; }).map(function (q) { return q.id; }))));
+    });
+  })();
   window.questionUIState = window.questionUIState || Object.create(null);
   window.phase2RuntimeState = { questionCount: questions.length, passageCount: passages.length, officialCount: questions.filter(function (q) { return q.sourceType === 'official'; }).length, practiceCount: questions.filter(function (q) { return q.sourceType === 'practice'; }).length, quizCount: questions.filter(function (q) { return q.sourceType === 'quiz'; }).length };
   function normalize(form) {
@@ -6144,6 +6251,21 @@ var data = window.canonicalLessonData;
   ];
   records.forEach(function (r) { if (!q.some(function (x) { return x.id === r.id; })) q.push(r); });
   window.canonicalQuestionData = q;
+  (function reapplyOfficialPdfSourceRecoveryAfterLegacyNormalizer() {
+    var recovery = window.__officialPdfRecovery || {};
+    var byId = Object.create(null);
+    (window.canonicalQuestionData || []).forEach(function (item) { byId[item.id] = item; });
+    Object.keys(recovery).forEach(function (id) {
+      var item = byId[id], r = recovery[id];
+      if (!item) return;
+      if (r.prompt) item.prompt = r.prompt;
+      if (r.options) item.options = r.options.map(function (option) { return String(option).replace(/^[A-J]\.\s*/, ''); });
+    if (r.answer) item.correctValues = r.answer.slice();
+    if (r.passage) item.passageRefs = [r.passage];
+    if (r.optionAnalysis) item.optionAnalysis = r.optionAnalysis.slice();
+      item.sourceRefs = Array.from(new Set((item.sourceRefs || []).concat(['official-pdf-' + id.replace(/^official-/, '')])));
+    });
+  })();
   if (window.phase2RuntimeState) window.phase2RuntimeState.questionCount = q.length;
 })();
 </script><script id="approved-practice-replacements-runtime">
@@ -6224,4 +6346,4 @@ var data = window.canonicalLessonData;
   };
   apply(document);
 })();
-</script></body></html>
+</script><script src="exam-mode.js"></script></body></html>

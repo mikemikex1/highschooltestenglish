@@ -1,0 +1,18 @@
+{
+  "result": "IMPLEMENTED_WITH_SOURCE_DATA_LIMITATIONS",
+  "officialUniqueRecords": 76,
+  "examRecordsMountedByMode": 82,
+  "years": [111, 112, 113, 114, 115],
+  "stateKeys": ["mode", "year", "section", "group", "question"],
+  "sections": ["vocabulary", "cloze", "context", "discourse", "reading", "mixed", "translation", "composition"],
+  "authority": "window.canonicalQuestionData",
+  "passageAuthority": "window.canonicalPassageData",
+  "singleQuestionMount": true,
+  "preSubmitAnswerMount": false,
+  "knownLimitations": [
+    "Some canonical official records are explicit official-card placeholders.",
+    "Translation source records do not provide complete reference answers for every 111-115 year.",
+    "114 translation source record was not found in the inspected canonical data.",
+    "Explicit passageRefs are required for passage rendering."
+  ]
+}
